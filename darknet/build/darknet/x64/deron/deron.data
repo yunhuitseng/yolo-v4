@@ -1,0 +1,6 @@
+classes = 1
+train = ./yolov4/deron/deron_train.txt
+valid = ./deron/deron_val.txt
+names = darknet/build/darknet/x64/deron/deron.names
+backup = /deron/backup
+

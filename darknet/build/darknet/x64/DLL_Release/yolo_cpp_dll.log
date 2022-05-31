@@ -1,0 +1,1470 @@
+﻿  activations.c
+  activation_layer.c
+  art.c
+  avgpool_layer.c
+  batchnorm_layer.c
+  blas.c
+  box.c
+  captcha.c
+D:\Yolo_v4\darknet\src\box.c(1,1): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+D:\Yolo_v4\darknet\src\box.c(39,34): warning C4244: '=': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\box.c(40,34): warning C4244: '=': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\box.c(41,34): warning C4244: '=': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\box.c(42,34): warning C4244: '=': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\box.c(103,48): warning C4244: '=': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\box.c(104,48): warning C4244: '=': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\box.c(105,49): warning C4244: '=': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\box.c(106,50): warning C4244: '=': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\box.c(206,1): warning C4244: '正在初始化': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\box.c(225,1): warning C4244: '正在初始化': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\box.c(249,1): warning C4244: '正在初始化': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\box.c(250,1): warning C4244: '正在初始化': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\box.c(260,1): warning C4244: '正在初始化': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\box.c(261,1): warning C4244: '正在初始化': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\box.c(262,1): warning C4244: '正在初始化': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\box.c(263,1): warning C4244: '正在初始化': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\box.c(277,1): warning C4244: '正在初始化': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\box.c(278,1): warning C4244: '正在初始化': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\box.c(282,1): warning C4244: '正在初始化': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\box.c(283,1): warning C4244: '正在初始化': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\box.c(356,1): warning C4244: '正在初始化': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\box.c(357,1): warning C4244: '正在初始化': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\box.c(358,1): warning C4244: '正在初始化': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\box.c(359,1): warning C4244: '正在初始化': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\box.c(365,1): warning C4244: '正在初始化': 將 'int' 轉換為 'float'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\box.c(367,1): warning C4244: '正在初始化': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\box.c(370,1): warning C4244: '正在初始化': 將 'int' 轉換為 'float'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\box.c(372,1): warning C4244: '正在初始化': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\box.c(374,1): warning C4244: '正在初始化': 將 'int' 轉換為 'float'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\box.c(376,1): warning C4244: '正在初始化': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\box.c(379,1): warning C4244: '正在初始化': 將 'int' 轉換為 'float'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\box.c(381,1): warning C4244: '正在初始化': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\box.c(433,1): warning C4244: '正在初始化': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\box.c(434,1): warning C4244: '正在初始化': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\box.c(435,1): warning C4244: '正在初始化': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\box.c(436,1): warning C4244: '正在初始化': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\box.c(585,33): warning C4244: 'return': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\box.c(633,38): warning C4244: '=': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\box.c(634,38): warning C4244: '=': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\box.c(635,38): warning C4244: '=': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\box.c(636,38): warning C4244: '=': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\box.c(620,1): warning C4305: '正在初始化': 從 'double' 轉換為 'float'，是由較大的類型轉換為較小的類型，可能導致資料遺失
+D:\Yolo_v4\darknet\src\box.c(621,1): warning C4305: '正在初始化': 從 'double' 轉換為 'float'，是由較大的類型轉換為較小的類型，可能導致資料遺失
+D:\Yolo_v4\darknet\src\box.c(622,1): warning C4305: '正在初始化': 從 'double' 轉換為 'float'，是由較大的類型轉換為較小的類型，可能導致資料遺失
+D:\Yolo_v4\darknet\src\box.c(623,1): warning C4305: '正在初始化': 從 'double' 轉換為 'float'，是由較大的類型轉換為較小的類型，可能導致資料遺失
+D:\Yolo_v4\darknet\src\box.c(625,1): warning C4305: '正在初始化': 從 'double' 轉換為 'float'，是由較大的類型轉換為較小的類型，可能導致資料遺失
+D:\Yolo_v4\darknet\src\box.c(655,38): warning C4244: '=': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\box.c(656,38): warning C4244: '=': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\box.c(657,38): warning C4244: '=': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\box.c(658,38): warning C4244: '=': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\box.c(642,1): warning C4305: '正在初始化': 從 'double' 轉換為 'float'，是由較大的類型轉換為較小的類型，可能導致資料遺失
+D:\Yolo_v4\darknet\src\box.c(643,1): warning C4305: '正在初始化': 從 'double' 轉換為 'float'，是由較大的類型轉換為較小的類型，可能導致資料遺失
+D:\Yolo_v4\darknet\src\box.c(644,1): warning C4305: '正在初始化': 從 'double' 轉換為 'float'，是由較大的類型轉換為較小的類型，可能導致資料遺失
+D:\Yolo_v4\darknet\src\box.c(645,1): warning C4305: '正在初始化': 從 'double' 轉換為 'float'，是由較大的類型轉換為較小的類型，可能導致資料遺失
+D:\Yolo_v4\darknet\src\box.c(647,1): warning C4305: '正在初始化': 從 'double' 轉換為 'float'，是由較大的類型轉換為較小的類型，可能導致資料遺失
+D:\Yolo_v4\darknet\src\box.c(684,46): warning C4244: '=': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\box.c(685,46): warning C4244: '=': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\box.c(686,46): warning C4244: '=': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\box.c(687,46): warning C4244: '=': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\box.c(667,1): warning C4305: '正在初始化': 從 'double' 轉換為 'float'，是由較大的類型轉換為較小的類型，可能導致資料遺失
+D:\Yolo_v4\darknet\src\box.c(668,1): warning C4305: '正在初始化': 從 'double' 轉換為 'float'，是由較大的類型轉換為較小的類型，可能導致資料遺失
+D:\Yolo_v4\darknet\src\box.c(669,1): warning C4305: '正在初始化': 從 'double' 轉換為 'float'，是由較大的類型轉換為較小的類型，可能導致資料遺失
+D:\Yolo_v4\darknet\src\box.c(670,1): warning C4305: '正在初始化': 從 'double' 轉換為 'float'，是由較大的類型轉換為較小的類型，可能導致資料遺失
+D:\Yolo_v4\darknet\src\box.c(672,1): warning C4305: '正在初始化': 從 'double' 轉換為 'float'，是由較大的類型轉換為較小的類型，可能導致資料遺失
+D:\Yolo_v4\darknet\src\blas.c(103,1): warning C4305: '正在初始化': 從 'double' 轉換為 'const float'，是由較大的類型轉換為較小的類型，可能導致資料遺失
+D:\Yolo_v4\darknet\src\box.c(896,1): warning C4244: '正在初始化': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\box.c(897,1): warning C4244: '正在初始化': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\box.c(898,1): warning C4244: '正在初始化': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\box.c(937,36): warning C4244: '=': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\box.c(938,36): warning C4244: '=': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\box.c(947,39): warning C4244: '=': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\box.c(948,39): warning C4244: '=': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\blas.c(171,1): warning C4305: '正在初始化': 從 'double' 轉換為 'const float'，是由較大的類型轉換為較小的類型，可能導致資料遺失
+D:\Yolo_v4\darknet\src\blas.c(255,1): warning C4244: '正在初始化': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\blas.c(278,60): warning C4244: '+=': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\blas.c(271,1): warning C4244: '正在初始化': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\blas.c(292,78): warning C4244: '=': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\blas.c(313,61): warning C4244: '=': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\blas.c(399,43): warning C4244: '=': 將 'int' 轉換為 'float'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\blas.c(392,1): warning C4244: '正在初始化': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\activations.h(50,1): warning C4244: '正在初始化': 將 'float' 轉換為 'int'，由於類型不同，可能導致資料遺失 (正在編譯原始程式檔 ..\..\src\activations.c)
+D:\Yolo_v4\darknet\src\blas.c(409,30): warning C4244: '=': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\blas.c(410,37): warning C4244: '=': 將 'int' 轉換為 'float'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\blas.c(420,37): warning C4244: '=': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\activations.h(72,103): warning C4244: '函式': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失 (正在編譯原始程式檔 ..\..\src\activations.c)
+D:\Yolo_v4\darknet\src\blas.c(431,46): warning C4244: '=': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\activations.h(72,106): warning C4244: 'return': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失 (正在編譯原始程式檔 ..\..\src\activations.c)
+D:\Yolo_v4\darknet\src\blas.c(463,1): warning C4244: '正在初始化': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\activations.h(114,56): warning C4244: 'return': 將 'int' 轉換為 'float'，由於類型不同，可能導致資料遺失 (正在編譯原始程式檔 ..\..\src\activations.c)
+D:\Yolo_v4\darknet\src\activations.h(115,70): warning C4244: 'return': 將 'int' 轉換為 'float'，由於類型不同，可能導致資料遺失 (正在編譯原始程式檔 ..\..\src\activations.c)
+D:\Yolo_v4\darknet\src\activations.h(126,47): warning C4244: '函式': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失 (正在編譯原始程式檔 ..\..\src\activations.c)
+D:\Yolo_v4\darknet\src\blas.c(537,19): warning C4018: '<': signed/unsigned 不相符
+D:\Yolo_v4\darknet\src\activations.h(126,116): warning C4244: '函式': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失 (正在編譯原始程式檔 ..\..\src\activations.c)
+D:\Yolo_v4\darknet\src\blas.c(550,18): warning C4018: '<': signed/unsigned 不相符
+D:\Yolo_v4\darknet\src\activations.h(126,127): warning C4244: 'return': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失 (正在編譯原始程式檔 ..\..\src\activations.c)
+D:\Yolo_v4\darknet\src\blas.c(574,13): warning C4267: 'return': 將 'size_t' 轉換為 'int'，資料可能遺失
+D:\Yolo_v4\darknet\src\blas.c(597,16): warning C4477: 'printf' : 格式字串 '%d' 需要 'int' 類型的引數，但 variadic 引數 1 的類型為 'size_t'
+D:\Yolo_v4\darknet\src\blas.c(597,16): message : 請考慮在格式字串中使用 '%zd'
+D:\Yolo_v4\darknet\src\blas.c(597,16): warning C4477: 'printf' : 格式字串 '%d' 需要 'int' 類型的引數，但 variadic 引數 2 的類型為 'size_t'
+D:\Yolo_v4\darknet\src\blas.c(597,16): message : 請考慮在格式字串中使用 '%zd'
+D:\Yolo_v4\darknet\src\activations.c(193,1): warning C4305: '正在初始化': 從 'double' 轉換為 'const float'，是由較大的類型轉換為較小的類型，可能導致資料遺失
+D:\Yolo_v4\darknet\src\blas.c(597,16): warning C4477: 'printf' : 格式字串 '%d' 需要 'int' 類型的引數，但 variadic 引數 3 的類型為 'size_t'
+D:\Yolo_v4\darknet\src\blas.c(597,16): message : 請考慮在格式字串中使用 '%zd'
+D:\Yolo_v4\darknet\src\activations.c(221,1): warning C4305: '正在初始化': 從 'double' 轉換為 'const float'，是由較大的類型轉換為較小的類型，可能導致資料遺失
+D:\Yolo_v4\darknet\src\blas.c(611,16): warning C4477: 'printf' : 格式字串 '%d' 需要 'int' 類型的引數，但 variadic 引數 1 的類型為 'size_t'
+D:\Yolo_v4\darknet\src\blas.c(611,16): message : 請考慮在格式字串中使用 '%zd'
+D:\Yolo_v4\darknet\src\blas.c(611,16): warning C4477: 'printf' : 格式字串 '%d' 需要 'int' 類型的引數，但 variadic 引數 2 的類型為 'size_t'
+D:\Yolo_v4\darknet\src\blas.c(611,16): message : 請考慮在格式字串中使用 '%zd'
+D:\Yolo_v4\darknet\src\activations.c(388,1): warning C4244: '正在初始化': 將 'double' 轉換為 'const float'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\activations.c(389,1): warning C4244: '正在初始化': 將 'double' 轉換為 'const float'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\blas.c(611,16): warning C4477: 'printf' : 格式字串 '%d' 需要 'int' 類型的引數，但 variadic 引數 3 的類型為 'size_t'
+D:\Yolo_v4\darknet\src\blas.c(611,16): message : 請考慮在格式字串中使用 '%zd'
+D:\Yolo_v4\darknet\src\blas.c(643,36): warning C4305: '=': 從 'double' 轉換為 'float'，是由較大的類型轉換為較小的類型，可能導致資料遺失
+D:\Yolo_v4\darknet\src\activations.h(50,1): warning C4244: '正在初始化': 將 'float' 轉換為 'int'，由於類型不同，可能導致資料遺失 (正在編譯原始程式檔 ..\..\src\captcha.c)
+D:\Yolo_v4\darknet\src\blas.c(641,1): warning C4305: '正在初始化': 從 'double' 轉換為 'float'，是由較大的類型轉換為較小的類型，可能導致資料遺失
+D:\Yolo_v4\darknet\src\blas.c(651,25): warning C4477: 'fprintf' : 格式字串 '%d' 需要 'int' 類型的引數，但 variadic 引數 1 的類型為 'size_t'
+D:\Yolo_v4\darknet\src\blas.c(651,25): message : 請考慮在格式字串中使用 '%zd'
+D:\Yolo_v4\darknet\src\activations.h(72,103): warning C4244: '函式': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失 (正在編譯原始程式檔 ..\..\src\captcha.c)
+D:\Yolo_v4\darknet\src\activations.h(72,106): warning C4244: 'return': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失 (正在編譯原始程式檔 ..\..\src\captcha.c)
+D:\Yolo_v4\darknet\src\blas.c(651,25): warning C4477: 'fprintf' : 格式字串 '%d' 需要 'int' 類型的引數，但 variadic 引數 2 的類型為 'size_t'
+D:\Yolo_v4\darknet\src\blas.c(651,25): message : 請考慮在格式字串中使用 '%zd'
+D:\Yolo_v4\darknet\src\blas.c(674,36): warning C4305: '=': 從 'double' 轉換為 'float'，是由較大的類型轉換為較小的類型，可能導致資料遺失
+D:\Yolo_v4\darknet\src\activations.h(114,56): warning C4244: 'return': 將 'int' 轉換為 'float'，由於類型不同，可能導致資料遺失 (正在編譯原始程式檔 ..\..\src\captcha.c)
+D:\Yolo_v4\darknet\src\blas.c(672,1): warning C4305: '正在初始化': 從 'double' 轉換為 'float'，是由較大的類型轉換為較小的類型，可能導致資料遺失
+D:\Yolo_v4\darknet\src\activations.h(115,70): warning C4244: 'return': 將 'int' 轉換為 'float'，由於類型不同，可能導致資料遺失 (正在編譯原始程式檔 ..\..\src\captcha.c)
+D:\Yolo_v4\darknet\src\blas.c(711,27): warning C4018: '<': signed/unsigned 不相符
+D:\Yolo_v4\darknet\src\activations.h(126,47): warning C4244: '函式': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失 (正在編譯原始程式檔 ..\..\src\captcha.c)
+D:\Yolo_v4\darknet\src\activations.h(126,116): warning C4244: '函式': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失 (正在編譯原始程式檔 ..\..\src\captcha.c)
+D:\Yolo_v4\darknet\src\blas.c(762,35): warning C4018: '<': signed/unsigned 不相符
+D:\Yolo_v4\darknet\src\activations.h(126,127): warning C4244: 'return': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失 (正在編譯原始程式檔 ..\..\src\captcha.c)
+D:\Yolo_v4\darknet\src\blas.c(785,25): warning C4477: 'fprintf' : 格式字串 '%d' 需要 'int' 類型的引數，但 variadic 引數 1 的類型為 'size_t'
+D:\Yolo_v4\darknet\src\blas.c(785,25): message : 請考慮在格式字串中使用 '%zd'
+D:\Yolo_v4\darknet\src\blas.c(785,25): warning C4477: 'fprintf' : 格式字串 '%d' 需要 'int' 類型的引數，但 variadic 引數 2 的類型為 'size_t'
+D:\Yolo_v4\darknet\src\blas.c(785,25): message : 請考慮在格式字串中使用 '%zd'
+D:\Yolo_v4\darknet\src\blas.c(837,27): warning C4018: '<': signed/unsigned 不相符
+D:\Yolo_v4\darknet\src\blas.c(880,35): warning C4018: '<': signed/unsigned 不相符
+D:\Yolo_v4\darknet\src\captcha.c(31,18): warning C4244: '函式': 將 'time_t' 轉換為 'unsigned int'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\captcha.c(87,41): warning C4244: '=': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\captcha.c(88,16): warning C4477: 'printf' : 格式字串 '%ld' 需要 'long' 類型的引數，但 variadic 引數 5 的類型為 'uint64_t'
+D:\Yolo_v4\darknet\src\captcha.c(88,16): message : 請考慮在格式字串中使用 '%lld'
+D:\Yolo_v4\darknet\src\captcha.c(88,16): message : 請考慮在格式字串中使用 '%Id'
+D:\Yolo_v4\darknet\src\captcha.c(88,16): message : 請考慮在格式字串中使用 '%I64d'
+D:\Yolo_v4\darknet\src\captcha.c(41,1): warning C4244: '正在初始化': 將 'uint64_t' 轉換為 'int'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\activations.h(50,1): warning C4244: '正在初始化': 將 'float' 轉換為 'int'，由於類型不同，可能導致資料遺失 (正在編譯原始程式檔 ..\..\src\avgpool_layer.c)
+D:\Yolo_v4\darknet\src\activations.h(72,103): warning C4244: '函式': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失 (正在編譯原始程式檔 ..\..\src\avgpool_layer.c)
+D:\Yolo_v4\darknet\src\activations.h(72,106): warning C4244: 'return': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失 (正在編譯原始程式檔 ..\..\src\avgpool_layer.c)
+D:\Yolo_v4\darknet\src\activations.h(114,56): warning C4244: 'return': 將 'int' 轉換為 'float'，由於類型不同，可能導致資料遺失 (正在編譯原始程式檔 ..\..\src\avgpool_layer.c)
+D:\Yolo_v4\darknet\src\activations.h(115,70): warning C4244: 'return': 將 'int' 轉換為 'float'，由於類型不同，可能導致資料遺失 (正在編譯原始程式檔 ..\..\src\avgpool_layer.c)
+D:\Yolo_v4\darknet\src\activations.h(126,47): warning C4244: '函式': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失 (正在編譯原始程式檔 ..\..\src\avgpool_layer.c)
+D:\Yolo_v4\darknet\src\activations.h(126,116): warning C4244: '函式': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失 (正在編譯原始程式檔 ..\..\src\avgpool_layer.c)
+D:\Yolo_v4\darknet\src\activations.h(126,127): warning C4244: 'return': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失 (正在編譯原始程式檔 ..\..\src\avgpool_layer.c)
+D:\Yolo_v4\darknet\src\activations.h(50,1): warning C4244: '正在初始化': 將 'float' 轉換為 'int'，由於類型不同，可能導致資料遺失 (正在編譯原始程式檔 ..\..\src\activation_layer.c)
+D:\Yolo_v4\darknet\src\activations.h(72,103): warning C4244: '函式': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失 (正在編譯原始程式檔 ..\..\src\activation_layer.c)
+D:\Yolo_v4\darknet\src\activations.h(72,106): warning C4244: 'return': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失 (正在編譯原始程式檔 ..\..\src\activation_layer.c)
+D:\Yolo_v4\darknet\src\activations.h(114,56): warning C4244: 'return': 將 'int' 轉換為 'float'，由於類型不同，可能導致資料遺失 (正在編譯原始程式檔 ..\..\src\activation_layer.c)
+D:\Yolo_v4\darknet\src\activations.h(115,70): warning C4244: 'return': 將 'int' 轉換為 'float'，由於類型不同，可能導致資料遺失 (正在編譯原始程式檔 ..\..\src\activation_layer.c)
+D:\Yolo_v4\darknet\src\activations.h(126,47): warning C4244: '函式': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失 (正在編譯原始程式檔 ..\..\src\activation_layer.c)
+D:\Yolo_v4\darknet\src\activations.h(126,116): warning C4244: '函式': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失 (正在編譯原始程式檔 ..\..\src\activation_layer.c)
+D:\Yolo_v4\darknet\src\activations.h(126,127): warning C4244: 'return': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失 (正在編譯原始程式檔 ..\..\src\activation_layer.c)
+D:\Yolo_v4\darknet\src\activations.h(50,1): warning C4244: '正在初始化': 將 'float' 轉換為 'int'，由於類型不同，可能導致資料遺失 (正在編譯原始程式檔 ..\..\src\batchnorm_layer.c)
+D:\Yolo_v4\darknet\src\activations.h(50,1): warning C4244: '正在初始化': 將 'float' 轉換為 'int'，由於類型不同，可能導致資料遺失 (正在編譯原始程式檔 ..\..\src\art.c)
+D:\Yolo_v4\darknet\src\activations.h(72,103): warning C4244: '函式': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失 (正在編譯原始程式檔 ..\..\src\art.c)
+D:\Yolo_v4\darknet\src\activations.h(72,103): warning C4244: '函式': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失 (正在編譯原始程式檔 ..\..\src\batchnorm_layer.c)
+D:\Yolo_v4\darknet\src\activations.h(72,106): warning C4244: 'return': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失 (正在編譯原始程式檔 ..\..\src\art.c)
+D:\Yolo_v4\darknet\src\activations.h(114,56): warning C4244: 'return': 將 'int' 轉換為 'float'，由於類型不同，可能導致資料遺失 (正在編譯原始程式檔 ..\..\src\art.c)
+D:\Yolo_v4\darknet\src\activations.h(72,106): warning C4244: 'return': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失 (正在編譯原始程式檔 ..\..\src\batchnorm_layer.c)
+D:\Yolo_v4\darknet\src\activations.h(115,70): warning C4244: 'return': 將 'int' 轉換為 'float'，由於類型不同，可能導致資料遺失 (正在編譯原始程式檔 ..\..\src\art.c)
+D:\Yolo_v4\darknet\src\activations.h(126,47): warning C4244: '函式': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失 (正在編譯原始程式檔 ..\..\src\art.c)
+D:\Yolo_v4\darknet\src\activations.h(126,116): warning C4244: '函式': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失 (正在編譯原始程式檔 ..\..\src\art.c)
+D:\Yolo_v4\darknet\src\activations.h(114,56): warning C4244: 'return': 將 'int' 轉換為 'float'，由於類型不同，可能導致資料遺失 (正在編譯原始程式檔 ..\..\src\batchnorm_layer.c)
+D:\Yolo_v4\darknet\src\activations.h(126,127): warning C4244: 'return': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失 (正在編譯原始程式檔 ..\..\src\art.c)
+D:\Yolo_v4\darknet\src\activations.h(115,70): warning C4244: 'return': 將 'int' 轉換為 'float'，由於類型不同，可能導致資料遺失 (正在編譯原始程式檔 ..\..\src\batchnorm_layer.c)
+D:\Yolo_v4\darknet\src\activations.h(126,47): warning C4244: '函式': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失 (正在編譯原始程式檔 ..\..\src\batchnorm_layer.c)
+D:\Yolo_v4\darknet\src\activations.h(126,116): warning C4244: '函式': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失 (正在編譯原始程式檔 ..\..\src\batchnorm_layer.c)
+D:\Yolo_v4\darknet\src\activations.h(126,127): warning C4244: 'return': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失 (正在編譯原始程式檔 ..\..\src\batchnorm_layer.c)
+D:\Yolo_v4\darknet\src\batchnorm_layer.c(118,59): warning C4244: '*=': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\batchnorm_layer.c(133,79): warning C4244: '*=': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\batchnorm_layer.c(143,179): warning C4244: '=': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\batchnorm_layer.c(196,29): warning C4305: '函式': 從 'double' 轉換為 'float'，是由較大的類型轉換為較小的類型，可能導致資料遺失
+D:\Yolo_v4\darknet\src\batchnorm_layer.c(197,29): warning C4305: '函式': 從 'double' 轉換為 'float'，是由較大的類型轉換為較小的類型，可能導致資料遺失
+D:\Yolo_v4\darknet\src\batchnorm_layer.c(198,29): warning C4305: '函式': 從 'double' 轉換為 'float'，是由較大的類型轉換為較小的類型，可能導致資料遺失
+D:\Yolo_v4\darknet\src\batchnorm_layer.c(199,29): warning C4305: '函式': 從 'double' 轉換為 'float'，是由較大的類型轉換為較小的類型，可能導致資料遺失
+D:\Yolo_v4\darknet\src\batchnorm_layer.c(285,92): warning C4305: '函式': 從 'double' 轉換為 'float'，是由較大的類型轉換為較小的類型，可能導致資料遺失
+D:\Yolo_v4\darknet\src\batchnorm_layer.c(277,1): warning C4305: '正在初始化': 從 'double' 轉換為 'const float'，是由較大的類型轉換為較小的類型，可能導致資料遺失
+D:\Yolo_v4\darknet\src\batchnorm_layer.c(356,88): warning C4305: '函式': 從 'double' 轉換為 'float'，是由較大的類型轉換為較小的類型，可能導致資料遺失
+D:\Yolo_v4\darknet\src\batchnorm_layer.c(368,88): warning C4305: '函式': 從 'double' 轉換為 'float'，是由較大的類型轉換為較小的類型，可能導致資料遺失
+  cifar.c
+  classifier.c
+  coco.c
+  col2im.c
+  compare.c
+  connected_layer.c
+  convolutional_layer.c
+  conv_lstm_layer.c
+  cost_layer.c
+D:\Yolo_v4\darknet\src\activations.h(50,1): warning C4244: '正在初始化': 將 'float' 轉換為 'int'，由於類型不同，可能導致資料遺失 (正在編譯原始程式檔 ..\..\src\coco.c)
+D:\Yolo_v4\darknet\src\activations.h(72,103): warning C4244: '函式': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失 (正在編譯原始程式檔 ..\..\src\coco.c)
+D:\Yolo_v4\darknet\src\activations.h(72,106): warning C4244: 'return': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失 (正在編譯原始程式檔 ..\..\src\coco.c)
+D:\Yolo_v4\darknet\src\activations.h(114,56): warning C4244: 'return': 將 'int' 轉換為 'float'，由於類型不同，可能導致資料遺失 (正在編譯原始程式檔 ..\..\src\coco.c)
+D:\Yolo_v4\darknet\src\activations.h(115,70): warning C4244: 'return': 將 'int' 轉換為 'float'，由於類型不同，可能導致資料遺失 (正在編譯原始程式檔 ..\..\src\coco.c)
+D:\Yolo_v4\darknet\src\activations.h(126,47): warning C4244: '函式': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失 (正在編譯原始程式檔 ..\..\src\coco.c)
+D:\Yolo_v4\darknet\src\activations.h(126,116): warning C4244: '函式': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失 (正在編譯原始程式檔 ..\..\src\coco.c)
+D:\Yolo_v4\darknet\src\activations.h(126,127): warning C4244: 'return': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失 (正在編譯原始程式檔 ..\..\src\coco.c)
+D:\Yolo_v4\darknet\src\coco.c(22,18): warning C4244: '函式': 將 'time_t' 轉換為 'unsigned int'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\coco.c(86,41): warning C4244: '=': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\coco.c(32,1): warning C4244: '正在初始化': 將 'uint64_t' 轉換為 'int'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\coco.c(117,31): warning C4244: '=': 將 'int' 轉換為 'float'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\coco.c(118,31): warning C4244: '=': 將 'int' 轉換為 'float'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\activations.h(50,1): warning C4244: '正在初始化': 將 'float' 轉換為 'int'，由於類型不同，可能導致資料遺失 (正在編譯原始程式檔 ..\..\src\compare.c)
+D:\Yolo_v4\darknet\src\activations.h(72,103): warning C4244: '函式': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失 (正在編譯原始程式檔 ..\..\src\compare.c)
+D:\Yolo_v4\darknet\src\activations.h(72,106): warning C4244: 'return': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失 (正在編譯原始程式檔 ..\..\src\compare.c)
+D:\Yolo_v4\darknet\src\coco.c(110,1): warning C4244: '正在初始化': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\activations.h(114,56): warning C4244: 'return': 將 'int' 轉換為 'float'，由於類型不同，可能導致資料遺失 (正在編譯原始程式檔 ..\..\src\compare.c)
+D:\Yolo_v4\darknet\src\coco.c(111,1): warning C4244: '正在初始化': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\activations.h(115,70): warning C4244: 'return': 將 'int' 轉換為 'float'，由於類型不同，可能導致資料遺失 (正在編譯原始程式檔 ..\..\src\compare.c)
+D:\Yolo_v4\darknet\src\coco.c(112,1): warning C4244: '正在初始化': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\coco.c(113,1): warning C4244: '正在初始化': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\activations.h(126,47): warning C4244: '函式': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失 (正在編譯原始程式檔 ..\..\src\compare.c)
+D:\Yolo_v4\darknet\src\activations.h(126,116): warning C4244: '函式': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失 (正在編譯原始程式檔 ..\..\src\compare.c)
+D:\Yolo_v4\darknet\src\coco.c(145,18): warning C4244: '函式': 將 'time_t' 轉換為 'unsigned int'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\activations.h(126,127): warning C4244: 'return': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失 (正在編譯原始程式檔 ..\..\src\compare.c)
+D:\Yolo_v4\darknet\src\activations.h(50,1): warning C4244: '正在初始化': 將 'float' 轉換為 'int'，由於類型不同，可能導致資料遺失 (正在編譯原始程式檔 ..\..\src\classifier.c)
+D:\Yolo_v4\darknet\src\coco.c(171,1): warning C4305: '正在初始化': 從 'double' 轉換為 'float'，是由較大的類型轉換為較小的類型，可能導致資料遺失
+D:\Yolo_v4\darknet\src\activations.h(72,103): warning C4244: '函式': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失 (正在編譯原始程式檔 ..\..\src\classifier.c)
+D:\Yolo_v4\darknet\src\coco.c(246,18): warning C4244: '函式': 將 'time_t' 轉換為 'unsigned int'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\activations.h(72,106): warning C4244: 'return': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失 (正在編譯原始程式檔 ..\..\src\classifier.c)
+D:\Yolo_v4\darknet\src\activations.h(114,56): warning C4244: 'return': 將 'int' 轉換為 'float'，由於類型不同，可能導致資料遺失 (正在編譯原始程式檔 ..\..\src\classifier.c)
+D:\Yolo_v4\darknet\src\coco.c(274,1): warning C4305: '正在初始化': 從 'double' 轉換為 'float'，是由較大的類型轉換為較小的類型，可能導致資料遺失
+D:\Yolo_v4\darknet\src\activations.h(115,70): warning C4244: 'return': 將 'int' 轉換為 'float'，由於類型不同，可能導致資料遺失 (正在編譯原始程式檔 ..\..\src\classifier.c)
+D:\Yolo_v4\darknet\src\activations.h(126,47): warning C4244: '函式': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失 (正在編譯原始程式檔 ..\..\src\classifier.c)
+D:\Yolo_v4\darknet\src\coco.c(344,1): warning C4305: '正在初始化': 從 'double' 轉換為 'float'，是由較大的類型轉換為較小的類型，可能導致資料遺失
+D:\Yolo_v4\darknet\src\activations.h(126,116): warning C4244: '函式': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失 (正在編譯原始程式檔 ..\..\src\classifier.c)
+D:\Yolo_v4\darknet\src\activations.h(126,127): warning C4244: 'return': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失 (正在編譯原始程式檔 ..\..\src\classifier.c)
+D:\Yolo_v4\darknet\src\coco.c(397,60): warning C4305: '函式': 從 'double' 轉換為 'float'，是由較大的類型轉換為較小的類型，可能導致資料遺失
+D:\Yolo_v4\darknet\src\compare.c(12,18): warning C4244: '函式': 將 'time_t' 轉換為 'unsigned int'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\compare.c(56,41): warning C4244: '=': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\compare.c(57,16): warning C4477: 'printf' : 格式字串 '%ld' 需要 'long' 類型的引數，但 variadic 引數 5 的類型為 'uint64_t'
+D:\Yolo_v4\darknet\src\compare.c(57,16): message : 請考慮在格式字串中使用 '%lld'
+D:\Yolo_v4\darknet\src\compare.c(57,16): message : 請考慮在格式字串中使用 '%Id'
+D:\Yolo_v4\darknet\src\compare.c(57,16): message : 請考慮在格式字串中使用 '%I64d'
+D:\Yolo_v4\darknet\src\compare.c(65,32): warning C4244: '=': 將 'uint64_t' 轉換為 'int'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\compare.c(70,54): warning C4305: '*=': 從 'double' 轉換為 'float'，是由較大的類型轉換為較小的類型，可能導致資料遺失
+D:\Yolo_v4\darknet\src\compare.c(43,1): warning C4244: '正在初始化': 將 'uint64_t' 轉換為 'int'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\compare.c(88,18): warning C4244: '函式': 將 'time_t' 轉換為 'unsigned int'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\activations.h(50,1): warning C4244: '正在初始化': 將 'float' 轉換為 'int'，由於類型不同，可能導致資料遺失 (正在編譯原始程式檔 ..\..\src\conv_lstm_layer.c)
+D:\Yolo_v4\darknet\src\compare.c(196,1): warning C4244: '正在初始化': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\compare.c(197,1): warning C4244: '正在初始化': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\compare.c(198,1): warning C4244: '正在初始化': 將 'int' 轉換為 'float'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\compare.c(199,1): warning C4244: '正在初始化': 將 'int' 轉換為 'float'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\activations.h(72,103): warning C4244: '函式': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失 (正在編譯原始程式檔 ..\..\src\conv_lstm_layer.c)
+D:\Yolo_v4\darknet\src\compare.c(234,18): warning C4244: '函式': 將 'time_t' 轉換為 'unsigned int'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\activations.h(72,106): warning C4244: 'return': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失 (正在編譯原始程式檔 ..\..\src\conv_lstm_layer.c)
+D:\Yolo_v4\darknet\src\compare.c(266,18): warning C4244: '函式': 將 'time_t' 轉換為 'unsigned int'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\activations.h(114,56): warning C4244: 'return': 將 'int' 轉換為 'float'，由於類型不同，可能導致資料遺失 (正在編譯原始程式檔 ..\..\src\conv_lstm_layer.c)
+D:\Yolo_v4\darknet\src\activations.h(115,70): warning C4244: 'return': 將 'int' 轉換為 'float'，由於類型不同，可能導致資料遺失 (正在編譯原始程式檔 ..\..\src\conv_lstm_layer.c)
+D:\Yolo_v4\darknet\src\activations.h(126,47): warning C4244: '函式': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失 (正在編譯原始程式檔 ..\..\src\conv_lstm_layer.c)
+D:\Yolo_v4\darknet\src\activations.h(126,116): warning C4244: '函式': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失 (正在編譯原始程式檔 ..\..\src\conv_lstm_layer.c)
+D:\Yolo_v4\darknet\src\activations.h(50,1): warning C4244: '正在初始化': 將 'float' 轉換為 'int'，由於類型不同，可能導致資料遺失 (正在編譯原始程式檔 ..\..\src\cifar.c)
+D:\Yolo_v4\darknet\src\activations.h(126,127): warning C4244: 'return': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失 (正在編譯原始程式檔 ..\..\src\conv_lstm_layer.c)
+D:\Yolo_v4\darknet\src\activations.h(72,103): warning C4244: '函式': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失 (正在編譯原始程式檔 ..\..\src\cifar.c)
+D:\Yolo_v4\darknet\src\activations.h(72,106): warning C4244: 'return': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失 (正在編譯原始程式檔 ..\..\src\cifar.c)
+D:\Yolo_v4\darknet\src\activations.h(114,56): warning C4244: 'return': 將 'int' 轉換為 'float'，由於類型不同，可能導致資料遺失 (正在編譯原始程式檔 ..\..\src\cifar.c)
+D:\Yolo_v4\darknet\src\activations.h(115,70): warning C4244: 'return': 將 'int' 轉換為 'float'，由於類型不同，可能導致資料遺失 (正在編譯原始程式檔 ..\..\src\cifar.c)
+D:\Yolo_v4\darknet\src\activations.h(126,47): warning C4244: '函式': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失 (正在編譯原始程式檔 ..\..\src\cifar.c)
+D:\Yolo_v4\darknet\src\activations.h(126,116): warning C4244: '函式': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失 (正在編譯原始程式檔 ..\..\src\cifar.c)
+D:\Yolo_v4\darknet\src\activations.h(126,127): warning C4244: 'return': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失 (正在編譯原始程式檔 ..\..\src\cifar.c)
+D:\Yolo_v4\darknet\src\activations.h(50,1): warning C4244: '正在初始化': 將 'float' 轉換為 'int'，由於類型不同，可能導致資料遺失 (正在編譯原始程式檔 ..\..\src\convolutional_layer.c)
+D:\Yolo_v4\darknet\src\activations.h(72,103): warning C4244: '函式': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失 (正在編譯原始程式檔 ..\..\src\convolutional_layer.c)
+D:\Yolo_v4\darknet\src\activations.h(72,106): warning C4244: 'return': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失 (正在編譯原始程式檔 ..\..\src\convolutional_layer.c)
+D:\Yolo_v4\darknet\src\activations.h(114,56): warning C4244: 'return': 將 'int' 轉換為 'float'，由於類型不同，可能導致資料遺失 (正在編譯原始程式檔 ..\..\src\convolutional_layer.c)
+D:\Yolo_v4\darknet\src\activations.h(115,70): warning C4244: 'return': 將 'int' 轉換為 'float'，由於類型不同，可能導致資料遺失 (正在編譯原始程式檔 ..\..\src\convolutional_layer.c)
+D:\Yolo_v4\darknet\src\activations.h(126,47): warning C4244: '函式': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失 (正在編譯原始程式檔 ..\..\src\convolutional_layer.c)
+D:\Yolo_v4\darknet\src\activations.h(126,116): warning C4244: '函式': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失 (正在編譯原始程式檔 ..\..\src\convolutional_layer.c)
+D:\Yolo_v4\darknet\src\activations.h(126,127): warning C4244: 'return': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失 (正在編譯原始程式檔 ..\..\src\convolutional_layer.c)
+D:\Yolo_v4\darknet\src\cifar.c(9,18): warning C4244: '函式': 將 'time_t' 轉換為 'unsigned int'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\conv_lstm_layer.c(237,68): warning C4244: '+=': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\conv_lstm_layer.c(238,57): warning C4244: '+=': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\convolutional_layer.c(46,46): warning C4244: '+=': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\convolutional_layer.c(59,44): warning C4244: '=': 將 'int' 轉換為 'float'，由於類型不同，可能導致資料遺失
+  cpu_gemm.c
+D:\Yolo_v4\darknet\src\cifar.c(31,43): warning C4244: '=': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失
+  crnn_layer.c
+D:\Yolo_v4\darknet\src\cifar.c(32,16): warning C4477: 'printf' : 格式字串 '%ld' 需要 'long' 類型的引數，但 variadic 引數 7 的類型為 'uint64_t'
+D:\Yolo_v4\darknet\src\cifar.c(32,16): message : 請考慮在格式字串中使用 '%lld'
+D:\Yolo_v4\darknet\src\cifar.c(32,16): message : 請考慮在格式字串中使用 '%Id'
+D:\Yolo_v4\darknet\src\cifar.c(32,16): message : 請考慮在格式字串中使用 '%I64d'
+D:\Yolo_v4\darknet\src\cifar.c(34,32): warning C4244: '=': 將 'uint64_t' 轉換為 'int'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\convolutional_layer.c(69,44): warning C4244: '+=': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\cifar.c(24,1): warning C4244: '正在初始化': 將 'uint64_t' 轉換為 'int'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\cifar.c(57,18): warning C4244: '函式': 將 'time_t' 轉換為 'unsigned int'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\cifar.c(79,38): warning C4244: '函式': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\cifar.c(87,43): warning C4244: '=': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\cifar.c(88,16): warning C4477: 'printf' : 格式字串 '%ld' 需要 'long' 類型的引數，但 variadic 引數 7 的類型為 'uint64_t'
+D:\Yolo_v4\darknet\src\cifar.c(88,16): message : 請考慮在格式字串中使用 '%lld'
+D:\Yolo_v4\darknet\src\cifar.c(88,16): message : 請考慮在格式字串中使用 '%Id'
+D:\Yolo_v4\darknet\src\cifar.c(88,16): message : 請考慮在格式字串中使用 '%I64d'
+D:\Yolo_v4\darknet\src\cifar.c(90,32): warning C4244: '=': 將 'uint64_t' 轉換為 'int'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\cifar.c(72,1): warning C4244: '正在初始化': 將 'uint64_t' 轉換為 'int'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\cifar.c(77,1): warning C4305: '正在初始化': 從 'double' 轉換為 'float'，是由較大的類型轉換為較小的類型，可能導致資料遺失
+D:\Yolo_v4\darknet\src\cifar.c(118,18): warning C4244: '函式': 將 'time_t' 轉換為 'unsigned int'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\cifar.c(149,18): warning C4244: '函式': 將 'time_t' 轉換為 'unsigned int'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\activations.h(50,1): warning C4244: '正在初始化': 將 'float' 轉換為 'int'，由於類型不同，可能導致資料遺失 (正在編譯原始程式檔 ..\..\src\connected_layer.c)
+D:\Yolo_v4\darknet\src\cifar.c(193,18): warning C4244: '函式': 將 'time_t' 轉換為 'unsigned int'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\activations.h(72,103): warning C4244: '函式': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失 (正在編譯原始程式檔 ..\..\src\connected_layer.c)
+D:\Yolo_v4\darknet\src\cifar.c(220,18): warning C4244: '函式': 將 'time_t' 轉換為 'unsigned int'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\activations.h(72,106): warning C4244: 'return': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失 (正在編譯原始程式檔 ..\..\src\connected_layer.c)
+D:\Yolo_v4\darknet\src\activations.h(114,56): warning C4244: 'return': 將 'int' 轉換為 'float'，由於類型不同，可能導致資料遺失 (正在編譯原始程式檔 ..\..\src\connected_layer.c)
+D:\Yolo_v4\darknet\src\activations.h(115,70): warning C4244: 'return': 將 'int' 轉換為 'float'，由於類型不同，可能導致資料遺失 (正在編譯原始程式檔 ..\..\src\connected_layer.c)
+D:\Yolo_v4\darknet\src\activations.h(126,47): warning C4244: '函式': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失 (正在編譯原始程式檔 ..\..\src\connected_layer.c)
+D:\Yolo_v4\darknet\src\convolutional_layer.c(787,66): warning C4244: '=': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\activations.h(126,116): warning C4244: '函式': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失 (正在編譯原始程式檔 ..\..\src\connected_layer.c)
+D:\Yolo_v4\darknet\src\conv_lstm_layer.c(747,82): warning C4244: '函式': 將 'int' 轉換為 'float'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\activations.h(126,127): warning C4244: 'return': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失 (正在編譯原始程式檔 ..\..\src\connected_layer.c)
+D:\Yolo_v4\darknet\src\convolutional_layer.c(577,1): warning C4244: '正在初始化': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\convolutional_layer.c(859,1): warning C4244: '正在初始化': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\convolutional_layer.c(1053,43): warning C4244: '=': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\convolutional_layer.c(1075,77): warning C4244: '=': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\convolutional_layer.c(1086,25): warning C4267: '=': 將 'size_t' 轉換為 'int'，資料可能遺失
+D:\Yolo_v4\darknet\src\convolutional_layer.c(1091,59): warning C4267: '=': 將 'size_t' 轉換為 'int'，資料可能遺失
+D:\Yolo_v4\darknet\src\conv_lstm_layer.c(1170,84): warning C4244: '函式': 將 'int' 轉換為 'float'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\convolutional_layer.c(1205,82): warning C4267: '函式': 將 'size_t' 轉換為 'const int'，資料可能遺失
+D:\Yolo_v4\darknet\src\convolutional_layer.c(1284,76): warning C4267: '函式': 將 'size_t' 轉換為 'int'，資料可能遺失
+D:\Yolo_v4\darknet\src\convolutional_layer.c(1299,113): warning C4267: '函式': 將 'size_t' 轉換為 'int'，資料可能遺失
+D:\Yolo_v4\darknet\src\convolutional_layer.c(1302,112): warning C4267: '函式': 將 'size_t' 轉換為 'int'，資料可能遺失
+D:\Yolo_v4\darknet\src\convolutional_layer.c(1302,152): warning C4267: '函式': 將 'size_t' 轉換為 'int'，資料可能遺失
+D:\Yolo_v4\darknet\src\convolutional_layer.c(1345,116): warning C4267: '函式': 將 'size_t' 轉換為 'int'，資料可能遺失
+D:\Yolo_v4\darknet\src\convolutional_layer.c(1345,156): warning C4267: '函式': 將 'size_t' 轉換為 'int'，資料可能遺失
+D:\Yolo_v4\darknet\src\convolutional_layer.c(1446,81): warning C4244: '=': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\convolutional_layer.c(1434,1): warning C4244: '正在初始化': 將 'uint64_t' 轉換為 'const int'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\convolutional_layer.c(1442,1): warning C4244: '正在初始化': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\convolutional_layer.c(1469,1): warning C4244: '正在初始化': 將 'double' 轉換為 'int'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\convolutional_layer.c(1470,1): warning C4244: '正在初始化': 將 'double' 轉換為 'int'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\connected_layer.c(93,1): warning C4244: '正在初始化': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\convolutional_layer.c(1471,1): warning C4244: '正在初始化': 將 'double' 轉換為 'int'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\convolutional_layer.c(1472,1): warning C4244: '正在初始化': 將 'double' 轉換為 'int'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\connected_layer.c(251,1): warning C4244: '正在初始化': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\connected_layer.c(317,56): warning C4244: '函式': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\connected_layer.c(318,47): warning C4244: '函式': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\connected_layer.c(319,47): warning C4244: '函式': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失
+  crop_layer.c
+  darknet.c
+  dark_cuda.c
+  data.c
+  deconvolutional_layer.c
+D:\Yolo_v4\darknet\src\activations.h(50,1): warning C4244: '正在初始化': 將 'float' 轉換為 'int'，由於類型不同，可能導致資料遺失 (正在編譯原始程式檔 ..\..\src\cost_layer.c)
+D:\Yolo_v4\darknet\src\activations.h(72,103): warning C4244: '函式': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失 (正在編譯原始程式檔 ..\..\src\cost_layer.c)
+D:\Yolo_v4\darknet\src\activations.h(72,106): warning C4244: 'return': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失 (正在編譯原始程式檔 ..\..\src\cost_layer.c)
+D:\Yolo_v4\darknet\src\activations.h(114,56): warning C4244: 'return': 將 'int' 轉換為 'float'，由於類型不同，可能導致資料遺失 (正在編譯原始程式檔 ..\..\src\cost_layer.c)
+D:\Yolo_v4\darknet\src\activations.h(115,70): warning C4244: 'return': 將 'int' 轉換為 'float'，由於類型不同，可能導致資料遺失 (正在編譯原始程式檔 ..\..\src\cost_layer.c)
+D:\Yolo_v4\darknet\src\activations.h(126,47): warning C4244: '函式': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失 (正在編譯原始程式檔 ..\..\src\cost_layer.c)
+D:\Yolo_v4\darknet\src\activations.h(126,116): warning C4244: '函式': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失 (正在編譯原始程式檔 ..\..\src\cost_layer.c)
+D:\Yolo_v4\darknet\src\activations.h(126,127): warning C4244: 'return': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失 (正在編譯原始程式檔 ..\..\src\cost_layer.c)
+D:\Yolo_v4\darknet\src\cost_layer.c(133,1): warning C4244: '正在初始化': 將 'float' 轉換為 'int'，由於類型不同，可能導致資料遺失
+  demo.c
+D:\Yolo_v4\darknet\src\activations.h(50,1): warning C4244: '正在初始化': 將 'float' 轉換為 'int'，由於類型不同，可能導致資料遺失 (正在編譯原始程式檔 ..\..\src\crnn_layer.c)
+D:\Yolo_v4\darknet\src\activations.h(72,103): warning C4244: '函式': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失 (正在編譯原始程式檔 ..\..\src\crnn_layer.c)
+D:\Yolo_v4\darknet\src\activations.h(72,106): warning C4244: 'return': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失 (正在編譯原始程式檔 ..\..\src\crnn_layer.c)
+D:\Yolo_v4\darknet\src\activations.h(114,56): warning C4244: 'return': 將 'int' 轉換為 'float'，由於類型不同，可能導致資料遺失 (正在編譯原始程式檔 ..\..\src\crnn_layer.c)
+D:\Yolo_v4\darknet\src\activations.h(115,70): warning C4244: 'return': 將 'int' 轉換為 'float'，由於類型不同，可能導致資料遺失 (正在編譯原始程式檔 ..\..\src\crnn_layer.c)
+D:\Yolo_v4\darknet\src\activations.h(126,47): warning C4244: '函式': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失 (正在編譯原始程式檔 ..\..\src\crnn_layer.c)
+D:\Yolo_v4\darknet\src\activations.h(126,116): warning C4244: '函式': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失 (正在編譯原始程式檔 ..\..\src\crnn_layer.c)
+D:\Yolo_v4\darknet\src\activations.h(126,127): warning C4244: 'return': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失 (正在編譯原始程式檔 ..\..\src\crnn_layer.c)
+D:\Yolo_v4\darknet\src\activations.h(50,1): warning C4244: '正在初始化': 將 'float' 轉換為 'int'，由於類型不同，可能導致資料遺失 (正在編譯原始程式檔 ..\..\src\deconvolutional_layer.c)
+D:\Yolo_v4\darknet\src\activations.h(72,103): warning C4244: '函式': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失 (正在編譯原始程式檔 ..\..\src\deconvolutional_layer.c)
+D:\Yolo_v4\darknet\src\activations.h(72,106): warning C4244: 'return': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失 (正在編譯原始程式檔 ..\..\src\deconvolutional_layer.c)
+D:\Yolo_v4\darknet\src\activations.h(114,56): warning C4244: 'return': 將 'int' 轉換為 'float'，由於類型不同，可能導致資料遺失 (正在編譯原始程式檔 ..\..\src\deconvolutional_layer.c)
+D:\Yolo_v4\darknet\src\activations.h(115,70): warning C4244: 'return': 將 'int' 轉換為 'float'，由於類型不同，可能導致資料遺失 (正在編譯原始程式檔 ..\..\src\deconvolutional_layer.c)
+D:\Yolo_v4\darknet\src\activations.h(126,47): warning C4244: '函式': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失 (正在編譯原始程式檔 ..\..\src\deconvolutional_layer.c)
+D:\Yolo_v4\darknet\src\activations.h(126,116): warning C4244: '函式': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失 (正在編譯原始程式檔 ..\..\src\deconvolutional_layer.c)
+D:\Yolo_v4\darknet\src\activations.h(126,127): warning C4244: 'return': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失 (正在編譯原始程式檔 ..\..\src\deconvolutional_layer.c)
+D:\Yolo_v4\darknet\src\activations.h(50,1): warning C4244: '正在初始化': 將 'float' 轉換為 'int'，由於類型不同，可能導致資料遺失 (正在編譯原始程式檔 ..\..\src\crop_layer.c)
+D:\Yolo_v4\darknet\src\activations.h(72,103): warning C4244: '函式': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失 (正在編譯原始程式檔 ..\..\src\crop_layer.c)
+D:\Yolo_v4\darknet\src\activations.h(72,106): warning C4244: 'return': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失 (正在編譯原始程式檔 ..\..\src\crop_layer.c)
+D:\Yolo_v4\darknet\src\activations.h(114,56): warning C4244: 'return': 將 'int' 轉換為 'float'，由於類型不同，可能導致資料遺失 (正在編譯原始程式檔 ..\..\src\crop_layer.c)
+D:\Yolo_v4\darknet\src\activations.h(115,70): warning C4244: 'return': 將 'int' 轉換為 'float'，由於類型不同，可能導致資料遺失 (正在編譯原始程式檔 ..\..\src\crop_layer.c)
+D:\Yolo_v4\darknet\src\activations.h(126,47): warning C4244: '函式': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失 (正在編譯原始程式檔 ..\..\src\crop_layer.c)
+D:\Yolo_v4\darknet\src\activations.h(126,116): warning C4244: '函式': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失 (正在編譯原始程式檔 ..\..\src\crop_layer.c)
+D:\Yolo_v4\darknet\src\activations.h(126,127): warning C4244: 'return': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失 (正在編譯原始程式檔 ..\..\src\crop_layer.c)
+D:\Yolo_v4\darknet\src\classifier.c(25,25): warning C4244: '=': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\deconvolutional_layer.c(65,1): warning C4244: '正在初始化': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\deconvolutional_layer.c(158,1): warning C4244: '正在初始化': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\crop_layer.c(54,27): warning C4244: '=': 將 'float' 轉換為 'int'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\crop_layer.c(55,27): warning C4244: '=': 將 'float' 轉換為 'int'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\dark_cuda.c(106,24): warning C4244: '函式': 將 'size_t' 轉換為 'double'，由於類型不同，可能導致資料遺失
+  detection_layer.c
+D:\Yolo_v4\darknet\src\dark_cuda.c(106,26): warning C4244: '=': 將 'double' 轉換為 'size_t'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\dark_cuda.c(111,12): warning C4267: '=': 將 'size_t' 轉換為 'unsigned int'，資料可能遺失
+D:\Yolo_v4\darknet\src\dark_cuda.c(112,12): warning C4267: '=': 將 'size_t' 轉換為 'unsigned int'，資料可能遺失
+D:\Yolo_v4\darknet\src\classifier.c(41,18): warning C4244: '函式': 將 'time_t' 轉換為 'unsigned int'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\classifier.c(58,18): warning C4244: '函式': 將 'time_t' 轉換為 'unsigned int'，由於類型不同，可能導致資料遺失
+  detector.c
+D:\Yolo_v4\darknet\src\classifier.c(171,41): warning C4244: '=': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\dark_cuda.c(405,24): warning C4477: 'printf' : 格式字串 '%d' 需要 'int' 類型的引數，但 variadic 引數 1 的類型為 'const size_t'
+D:\Yolo_v4\darknet\src\dark_cuda.c(405,24): message : 請考慮在格式字串中使用 '%zd'
+D:\Yolo_v4\darknet\src\activations.h(50,1): warning C4244: '正在初始化': 將 'float' 轉換為 'int'，由於類型不同，可能導致資料遺失 (正在編譯原始程式檔 ..\..\src\darknet.c)
+D:\Yolo_v4\darknet\src\dark_cuda.c(426,20): warning C4477: 'printf' : 格式字串 '%d' 需要 'int' 類型的引數，但 variadic 引數 1 的類型為 'size_t'
+D:\Yolo_v4\darknet\src\dark_cuda.c(426,20): message : 請考慮在格式字串中使用 '%zd'
+D:\Yolo_v4\darknet\src\dark_cuda.c(441,20): warning C4477: 'printf' : 格式字串 '%d' 需要 'int' 類型的引數，但 variadic 引數 1 的類型為 'const size_t'
+D:\Yolo_v4\darknet\src\dark_cuda.c(441,20): message : 請考慮在格式字串中使用 '%zd'
+D:\Yolo_v4\darknet\src\activations.h(72,103): warning C4244: '函式': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失 (正在編譯原始程式檔 ..\..\src\darknet.c)
+D:\Yolo_v4\darknet\src\activations.h(72,106): warning C4244: 'return': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失 (正在編譯原始程式檔 ..\..\src\darknet.c)
+D:\Yolo_v4\darknet\src\dark_cuda.c(447,20): warning C4477: 'printf' : 格式字串 '%d' 需要 'int' 類型的引數，但 variadic 引數 1 的類型為 'const size_t'
+D:\Yolo_v4\darknet\src\dark_cuda.c(447,20): message : 請考慮在格式字串中使用 '%zd'
+D:\Yolo_v4\darknet\src\activations.h(114,56): warning C4244: 'return': 將 'int' 轉換為 'float'，由於類型不同，可能導致資料遺失 (正在編譯原始程式檔 ..\..\src\darknet.c)
+D:\Yolo_v4\darknet\src\activations.h(115,70): warning C4244: 'return': 將 'int' 轉換為 'float'，由於類型不同，可能導致資料遺失 (正在編譯原始程式檔 ..\..\src\darknet.c)
+D:\Yolo_v4\darknet\src\dark_cuda.c(537,15): warning C4267: '函式': 將 'size_t' 轉換為 'int'，資料可能遺失
+D:\Yolo_v4\darknet\src\activations.h(126,47): warning C4244: '函式': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失 (正在編譯原始程式檔 ..\..\src\darknet.c)
+D:\Yolo_v4\darknet\src\dark_cuda.c(538,26): warning C4267: '函式': 將 'size_t' 轉換為 'int'，資料可能遺失
+D:\Yolo_v4\darknet\src\activations.h(126,116): warning C4244: '函式': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失 (正在編譯原始程式檔 ..\..\src\darknet.c)
+D:\Yolo_v4\darknet\src\activations.h(126,127): warning C4244: 'return': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失 (正在編譯原始程式檔 ..\..\src\darknet.c)
+D:\Yolo_v4\darknet\src\classifier.c(176,67): warning C4244: '=': 將 'double' 轉換為 'int'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\classifier.c(177,59): warning C4244: '=': 將 'double' 轉換為 'int'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\classifier.c(211,16): warning C4477: 'printf' : 格式字串 '%ld' 需要 'long' 類型的引數，但 variadic 引數 7 的類型為 'uint64_t'
+D:\Yolo_v4\darknet\src\classifier.c(211,16): message : 請考慮在格式字串中使用 '%lld'
+D:\Yolo_v4\darknet\src\classifier.c(211,16): message : 請考慮在格式字串中使用 '%Id'
+D:\Yolo_v4\darknet\src\classifier.c(211,16): message : 請考慮在格式字串中使用 '%I64d'
+D:\Yolo_v4\darknet\src\classifier.c(394,18): warning C4244: '函式': 將 'time_t' 轉換為 'unsigned int'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\classifier.c(463,18): warning C4244: '函式': 將 'time_t' 轉換為 'unsigned int'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\data.c(281,48): warning C4244: '=': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\data.c(282,39): warning C4244: '=': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\classifier.c(537,18): warning C4244: '函式': 將 'time_t' 轉換為 'unsigned int'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\classifier.c(611,18): warning C4244: '函式': 將 'time_t' 轉換為 'unsigned int'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\classifier.c(684,18): warning C4244: '函式': 將 'time_t' 轉換為 'unsigned int'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\classifier.c(777,1): warning C4305: '正在初始化': 從 'double' 轉換為 'float'，是由較大的類型轉換為較小的類型，可能導致資料遺失
+D:\Yolo_v4\darknet\src\classifier.c(778,1): warning C4305: '正在初始化': 從 'double' 轉換為 'float'，是由較大的類型轉換為較小的類型，可能導致資料遺失
+D:\Yolo_v4\darknet\src\classifier.c(855,13): warning C4101: 'time': 未參考的區域變數
+D:\Yolo_v4\darknet\src\classifier.c(913,18): warning C4244: '函式': 將 'time_t' 轉換為 'unsigned int'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\classifier.c(951,18): warning C4244: '函式': 將 'time_t' 轉換為 'unsigned int'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\classifier.c(1368,1): warning C4267: '正在初始化': 將 'size_t' 轉換為 'int'，資料可能遺失
+D:\Yolo_v4\darknet\src\darknet.c(75,31): warning C4244: '函式': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\darknet.c(76,31): warning C4244: '函式': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\darknet.c(78,39): warning C4244: '函式': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\data.c(459,42): warning C4244: '=': 將 'int' 轉換為 'float'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\data.c(460,48): warning C4244: '=': 將 'int' 轉換為 'float'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\darknet.c(79,39): warning C4244: '函式': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\data.c(464,44): warning C4244: '=': 將 'float' 轉換為 'int'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\data.c(465,49): warning C4244: '=': 將 'float' 轉換為 'int'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\data.c(466,49): warning C4244: '=': 將 'float' 轉換為 'int'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\data.c(723,38): warning C4244: '函式': 將 'int' 轉換為 'float'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\data.c(723,42): warning C4244: '函式': 將 'int' 轉換為 'float'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\data.c(724,38): warning C4244: '函式': 將 'int' 轉換為 'float'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\data.c(724,42): warning C4244: '函式': 將 'int' 轉換為 'float'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\data.c(725,38): warning C4244: '函式': 將 'int' 轉換為 'float'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\data.c(725,42): warning C4244: '函式': 將 'int' 轉換為 'float'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\data.c(726,38): warning C4244: '函式': 將 'int' 轉換為 'float'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\data.c(726,42): warning C4244: '函式': 將 'int' 轉換為 'float'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\data.c(745,91): warning C4244: '函式': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\data.c(745,98): warning C4244: '函式': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\data.c(720,1): warning C4244: '正在初始化': 將 'float' 轉換為 'int'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\data.c(721,1): warning C4244: '正在初始化': 將 'float' 轉換為 'int'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\data.c(723,1): warning C4244: '正在初始化': 將 'float' 轉換為 'int'，由於類型不同，可能導致資料遺失
+  dice.c
+D:\Yolo_v4\darknet\src\data.c(724,1): warning C4244: '正在初始化': 將 'float' 轉換為 'int'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\data.c(725,1): warning C4244: '正在初始化': 將 'float' 轉換為 'int'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\data.c(726,1): warning C4244: '正在初始化': 將 'float' 轉換為 'int'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\data.c(842,34): warning C4244: '函式': 將 'int' 轉換為 'float'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\darknet.c(80,39): warning C4244: '函式': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\data.c(842,38): warning C4244: '函式': 將 'int' 轉換為 'float'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\darknet.c(84,37): warning C4244: '函式': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\data.c(843,34): warning C4244: '函式': 將 'int' 轉換為 'float'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\darknet.c(85,46): warning C4244: '函式': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\data.c(843,38): warning C4244: '函式': 將 'int' 轉換為 'float'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\data.c(844,34): warning C4244: '函式': 將 'int' 轉換為 'float'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\data.c(844,38): warning C4244: '函式': 將 'int' 轉換為 'float'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\data.c(845,34): warning C4244: '函式': 將 'int' 轉換為 'float'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\data.c(845,38): warning C4244: '函式': 將 'int' 轉換為 'float'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\data.c(863,75): warning C4244: '函式': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\data.c(863,82): warning C4244: '函式': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\data.c(839,1): warning C4244: '正在初始化': 將 'float' 轉換為 'int'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\data.c(840,1): warning C4244: '正在初始化': 將 'float' 轉換為 'int'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\data.c(842,1): warning C4244: '正在初始化': 將 'float' 轉換為 'int'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\data.c(843,1): warning C4244: '正在初始化': 將 'float' 轉換為 'int'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\data.c(844,1): warning C4244: '正在初始化': 將 'float' 轉換為 'int'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\data.c(845,1): warning C4244: '正在初始化': 將 'float' 轉換為 'int'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\darknet.c(495,65): warning C4305: '函式': 從 'double' 轉換為 'float'，是由較大的類型轉換為較小的類型，可能導致資料遺失
+D:\Yolo_v4\darknet\src\data.c(962,32): warning C4244: '=': 將 'int' 轉換為 'float'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\data.c(970,30): warning C4244: '=': 將 'int' 轉換為 'float'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\darknet.c(524,79): warning C4244: '函式': 將 'double' 轉換為 'int'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\data.c(974,32): warning C4244: '=': 將 'int' 轉換為 'float'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\data.c(976,30): warning C4244: '=': 將 'int' 轉換為 'float'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\data.c(982,34): warning C4244: '=': 將 'float' 轉換為 'int'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\data.c(986,36): warning C4244: '=': 將 'float' 轉換為 'int'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\data.c(988,49): warning C4244: '=': 將 'float' 轉換為 'int'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\data.c(989,49): warning C4244: '=': 將 'float' 轉換為 'int'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\data.c(1024,35): warning C4244: '=': 將 'float' 轉換為 'int'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\data.c(1025,36): warning C4244: '=': 將 'float' 轉換為 'int'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\data.c(1026,34): warning C4244: '=': 將 'float' 轉換為 'int'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\data.c(1027,34): warning C4244: '=': 將 'float' 轉換為 'int'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\data.c(945,1): warning C4244: '正在初始化': 將 'float' 轉換為 'int'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\data.c(946,1): warning C4244: '正在初始化': 將 'float' 轉換為 'int'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\data.c(947,1): warning C4244: '正在初始化': 將 'float' 轉換為 'int'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\data.c(948,1): warning C4244: '正在初始化': 將 'float' 轉換為 'int'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\data.c(1452,59): warning C4244: '=': 將 'unsigned int' 轉換為 'float'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\data.c(1465,48): warning C4244: '函式': 將 'int' 轉換為 'float'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\data.c(1465,52): warning C4244: '函式': 將 'int' 轉換為 'float'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\data.c(1466,49): warning C4244: '函式': 將 'int' 轉換為 'float'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\data.c(1466,53): warning C4244: '函式': 將 'int' 轉換為 'float'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\data.c(1467,47): warning C4244: '函式': 將 'int' 轉換為 'float'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\data.c(1467,51): warning C4244: '函式': 將 'int' 轉換為 'float'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\data.c(1468,47): warning C4244: '函式': 將 'int' 轉換為 'float'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\data.c(1468,51): warning C4244: '函式': 將 'int' 轉換為 'float'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\data.c(1472,53): warning C4244: '函式': 將 'int' 轉換為 'float'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\data.c(1472,68): warning C4244: '+=': 將 'float' 轉換為 'int'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\data.c(1473,54): warning C4244: '函式': 將 'int' 轉換為 'float'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\data.c(1473,69): warning C4244: '+=': 將 'float' 轉換為 'int'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\data.c(1474,52): warning C4244: '函式': 將 'int' 轉換為 'float'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\data.c(1474,67): warning C4244: '+=': 將 'float' 轉換為 'int'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\data.c(1475,52): warning C4244: '函式': 將 'int' 轉換為 'float'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\data.c(1475,67): warning C4244: '+=': 將 'float' 轉換為 'int'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\data.c(1478,53): warning C4244: '函式': 將 'int' 轉換為 'float'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\data.c(1478,62): warning C4244: '函式': 將 'int' 轉換為 'float'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\data.c(1478,74): warning C4244: '+=': 將 'float' 轉換為 'int'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\data.c(1479,54): warning C4244: '函式': 將 'int' 轉換為 'float'，由於類型不同，可能導致資料遺失
+  dropout_layer.c
+  gaussian_yolo_layer.c
+D:\Yolo_v4\darknet\src\data.c(1479,63): warning C4244: '函式': 將 'int' 轉換為 'float'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\data.c(1479,75): warning C4244: '+=': 將 'float' 轉換為 'int'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\data.c(1480,52): warning C4244: '函式': 將 'int' 轉換為 'float'，由於類型不同，可能導致資料遺失
+  gemm.c
+D:\Yolo_v4\darknet\src\data.c(1480,61): warning C4244: '函式': 將 'int' 轉換為 'float'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\data.c(1480,73): warning C4244: '+=': 將 'float' 轉換為 'int'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\data.c(1481,52): warning C4244: '函式': 將 'int' 轉換為 'float'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\data.c(1481,61): warning C4244: '函式': 將 'int' 轉換為 'float'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\data.c(1481,73): warning C4244: '+=': 將 'float' 轉換為 'int'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\data.c(1494,42): warning C4244: '=': 將 'float' 轉換為 'int'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\data.c(1495,42): warning C4244: '=': 將 'float' 轉換為 'int'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\data.c(1502,44): warning C4244: '=': 將 'float' 轉換為 'int'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\data.c(1503,46): warning C4244: '=': 將 'float' 轉換為 'int'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\data.c(1524,83): warning C4244: '函式': 將 'float' 轉換為 'int'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\data.c(1524,100): warning C4244: '函式': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\data.c(1524,109): warning C4244: '函式': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\data.c(1427,1): warning C4244: '正在初始化': 將 'float' 轉換為 'int'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\data.c(1428,1): warning C4244: '正在初始化': 將 'float' 轉換為 'int'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\data.c(1432,1): warning C4244: '正在初始化': 將 'float' 轉換為 'int'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\data.c(1433,1): warning C4244: '正在初始化': 將 'float' 轉換為 'int'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\data.c(1436,1): warning C4244: '正在初始化': 將 'float' 轉換為 'int'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\data.c(1437,1): warning C4244: '正在初始化': 將 'float' 轉換為 'int'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\data.c(1465,1): warning C4244: '正在初始化': 將 'float' 轉換為 'int'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\data.c(1466,1): warning C4244: '正在初始化': 將 'float' 轉換為 'int'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\data.c(1467,1): warning C4244: '正在初始化': 將 'float' 轉換為 'int'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\data.c(1468,1): warning C4244: '正在初始化': 將 'float' 轉換為 'int'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\data.c(1549,1): warning C4244: '正在初始化': 將 'double' 轉換為 'int'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\data.c(1550,1): warning C4244: '正在初始化': 將 'double' 轉換為 'int'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\data.c(1551,1): warning C4244: '正在初始化': 將 'double' 轉換為 'int'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\data.c(1552,1): warning C4244: '正在初始化': 將 'double' 轉換為 'int'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\activations.h(50,1): warning C4244: '正在初始化': 將 'float' 轉換為 'int'，由於類型不同，可能導致資料遺失 (正在編譯原始程式檔 ..\..\src\demo.c)
+D:\Yolo_v4\darknet\src\activations.h(72,103): warning C4244: '函式': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失 (正在編譯原始程式檔 ..\..\src\demo.c)
+D:\Yolo_v4\darknet\src\activations.h(72,106): warning C4244: 'return': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失 (正在編譯原始程式檔 ..\..\src\demo.c)
+D:\Yolo_v4\darknet\src\activations.h(114,56): warning C4244: 'return': 將 'int' 轉換為 'float'，由於類型不同，可能導致資料遺失 (正在編譯原始程式檔 ..\..\src\demo.c)
+D:\Yolo_v4\darknet\src\data.c(1873,49): warning C4244: '函式': 將 'const float' 轉換為 'int'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\activations.h(115,70): warning C4244: 'return': 將 'int' 轉換為 'float'，由於類型不同，可能導致資料遺失 (正在編譯原始程式檔 ..\..\src\demo.c)
+D:\Yolo_v4\darknet\src\data.c(1873,56): warning C4244: '函式': 將 'const float' 轉換為 'int'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\data.c(1874,49): warning C4244: '函式': 將 'const float' 轉換為 'int'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\activations.h(126,47): warning C4244: '函式': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失 (正在編譯原始程式檔 ..\..\src\demo.c)
+D:\Yolo_v4\darknet\src\data.c(1874,56): warning C4244: '函式': 將 'const float' 轉換為 'int'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\data.c(1916,56): warning C4244: '函式': 將 'const float' 轉換為 'int'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\activations.h(126,116): warning C4244: '函式': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失 (正在編譯原始程式檔 ..\..\src\demo.c)
+D:\Yolo_v4\darknet\src\data.c(1916,76): warning C4244: '函式': 將 'const float' 轉換為 'int'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\data.c(1917,56): warning C4244: '函式': 將 'const float' 轉換為 'int'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\activations.h(126,127): warning C4244: 'return': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失 (正在編譯原始程式檔 ..\..\src\demo.c)
+D:\Yolo_v4\darknet\src\data.c(1917,76): warning C4244: '函式': 將 'const float' 轉換為 'int'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\data.c(1871,1): warning C4305: '正在初始化': 從 'double' 轉換為 'const float'，是由較大的類型轉換為較小的類型，可能導致資料遺失
+D:\Yolo_v4\darknet\src\data.c(1872,1): warning C4305: '正在初始化': 從 'double' 轉換為 'const float'，是由較大的類型轉換為較小的類型，可能導致資料遺失
+D:\Yolo_v4\darknet\src\data.c(1915,1): warning C4305: '正在初始化': 從 'double' 轉換為 'const float'，是由較大的類型轉換為較小的類型，可能導致資料遺失
+D:\Yolo_v4\darknet\src\data.c(2093,46): warning C4244: '=': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\data.c(2097,30): warning C4305: '函式': 從 'double' 轉換為 'float'，是由較大的類型轉換為較小的類型，可能導致資料遺失
+D:\Yolo_v4\darknet\src\data.c(2126,1): warning C4244: '正在初始化': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\data.c(2127,1): warning C4305: '正在初始化': 從 'double' 轉換為 'float'，是由較大的類型轉換為較小的類型，可能導致資料遺失
+D:\Yolo_v4\darknet\src\data.c(2157,58): warning C4244: '=': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\data.c(2164,30): warning C4305: '函式': 從 'double' 轉換為 'float'，是由較大的類型轉換為較小的類型，可能導致資料遺失
+  getopt.c
+D:\Yolo_v4\darknet\src\activations.h(50,1): warning C4244: '正在初始化': 將 'float' 轉換為 'int'，由於類型不同，可能導致資料遺失 (正在編譯原始程式檔 ..\..\src\detector.c)
+D:\Yolo_v4\darknet\src\activations.h(72,103): warning C4244: '函式': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失 (正在編譯原始程式檔 ..\..\src\detector.c)
+D:\Yolo_v4\darknet\src\activations.h(72,106): warning C4244: 'return': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失 (正在編譯原始程式檔 ..\..\src\detector.c)
+D:\Yolo_v4\darknet\src\activations.h(114,56): warning C4244: 'return': 將 'int' 轉換為 'float'，由於類型不同，可能導致資料遺失 (正在編譯原始程式檔 ..\..\src\detector.c)
+D:\Yolo_v4\darknet\src\activations.h(115,70): warning C4244: 'return': 將 'int' 轉換為 'float'，由於類型不同，可能導致資料遺失 (正在編譯原始程式檔 ..\..\src\detector.c)
+D:\Yolo_v4\darknet\src\activations.h(126,47): warning C4244: '函式': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失 (正在編譯原始程式檔 ..\..\src\detector.c)
+D:\Yolo_v4\darknet\src\activations.h(126,116): warning C4244: '函式': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失 (正在編譯原始程式檔 ..\..\src\detector.c)
+D:\Yolo_v4\darknet\src\activations.h(126,127): warning C4244: 'return': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失 (正在編譯原始程式檔 ..\..\src\detector.c)
+D:\Yolo_v4\darknet\src\detector.c(63,18): warning C4244: '函式': 將 'time_t' 轉換為 'unsigned int'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\detector.c(70,18): warning C4244: '函式': 將 'time_t' 轉換為 'unsigned int'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\detector.c(89,18): warning C4244: '函式': 將 'time_t' 轉換為 'unsigned int'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\detector.c(124,43): warning C4244: '=': 將 'int64_t' 轉換為 'int'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\detector.c(125,48): warning C4244: '=': 將 'int64_t' 轉換為 'int'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\detector.c(126,42): warning C4244: '=': 將 'int64_t' 轉換為 'int'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\activations.h(50,1): warning C4244: '正在初始化': 將 'float' 轉換為 'int'，由於類型不同，可能導致資料遺失 (正在編譯原始程式檔 ..\..\src\detection_layer.c)
+D:\Yolo_v4\darknet\src\activations.h(72,103): warning C4244: '函式': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失 (正在編譯原始程式檔 ..\..\src\detection_layer.c)
+D:\Yolo_v4\darknet\src\activations.h(72,106): warning C4244: 'return': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失 (正在編譯原始程式檔 ..\..\src\detection_layer.c)
+D:\Yolo_v4\darknet\src\activations.h(114,56): warning C4244: 'return': 將 'int' 轉換為 'float'，由於類型不同，可能導致資料遺失 (正在編譯原始程式檔 ..\..\src\detection_layer.c)
+D:\Yolo_v4\darknet\src\activations.h(115,70): warning C4244: 'return': 將 'int' 轉換為 'float'，由於類型不同，可能導致資料遺失 (正在編譯原始程式檔 ..\..\src\detection_layer.c)
+D:\Yolo_v4\darknet\src\activations.h(126,47): warning C4244: '函式': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失 (正在編譯原始程式檔 ..\..\src\detection_layer.c)
+D:\Yolo_v4\darknet\src\activations.h(126,116): warning C4244: '函式': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失 (正在編譯原始程式檔 ..\..\src\detection_layer.c)
+D:\Yolo_v4\darknet\src\activations.h(126,127): warning C4244: 'return': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失 (正在編譯原始程式檔 ..\..\src\detection_layer.c)
+D:\Yolo_v4\darknet\src\detector.c(253,76): warning C4244: '=': 將 'float' 轉換為 'int'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\detector.c(296,41): warning C4244: '=': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\detector.c(302,57): warning C4244: '=': 將 'double' 轉換為 'int'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\detector.c(304,57): warning C4244: '=': 將 'double' 轉換為 'int'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\detector.c(196,1): warning C4305: '正在初始化': 從 'double' 轉換為 'float'，是由較大的類型轉換為較小的類型，可能導致資料遺失
+D:\Yolo_v4\darknet\src\detection_layer.c(44,18): warning C4244: '函式': 將 'time_t' 轉換為 'unsigned int'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\detector.c(200,1): warning C4244: '正在初始化': 將 'long double' 轉換為 'int'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\detector.c(201,1): warning C4244: '正在初始化': 將 'long double' 轉換為 'int'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\detector.c(204,1): warning C4244: '正在初始化': 將 'long double' 轉換為 'int'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\detector.c(205,1): warning C4244: '正在初始化': 將 'long double' 轉換為 'int'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\detection_layer.c(84,76): warning C4244: '+=': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\detection_layer.c(99,112): warning C4244: '+=': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\detector.c(298,1): warning C4244: '正在初始化': 將 'int64_t' 轉換為 'const int'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\detection_layer.c(160,74): warning C4244: '-=': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\detection_layer.c(161,74): warning C4244: '+=': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\detector.c(483,31): warning C4244: '=': 將 'int' 轉換為 'float'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\detector.c(484,31): warning C4244: '=': 將 'int' 轉換為 'float'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\detection_layer.c(163,75): warning C4244: '=': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\detector.c(476,1): warning C4244: '正在初始化': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\detection_layer.c(174,119): warning C4244: '=': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\detector.c(477,1): warning C4244: '正在初始化': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\detection_layer.c(175,119): warning C4244: '=': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\activations.h(50,1): warning C4244: '正在初始化': 將 'float' 轉換為 'int'，由於類型不同，可能導致資料遺失 (正在編譯原始程式檔 ..\..\src\dice.c)
+D:\Yolo_v4\darknet\src\detector.c(478,1): warning C4244: '正在初始化': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\detection_layer.c(178,43): warning C4244: '+=': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\detector.c(479,1): warning C4244: '正在初始化': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\activations.h(72,103): warning C4244: '函式': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失 (正在編譯原始程式檔 ..\..\src\dice.c)
+D:\Yolo_v4\darknet\src\detection_layer.c(211,68): warning C4244: '=': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\detector.c(513,31): warning C4244: '=': 將 'int' 轉換為 'float'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\activations.h(72,106): warning C4244: 'return': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失 (正在編譯原始程式檔 ..\..\src\dice.c)
+D:\Yolo_v4\darknet\src\detector.c(514,31): warning C4244: '=': 將 'int' 轉換為 'float'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\detection_layer.c(80,1): warning C4244: '正在初始化': 將 'float' 轉換為 'int'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\detector.c(506,1): warning C4244: '正在初始化': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\activations.h(114,56): warning C4244: 'return': 將 'int' 轉換為 'float'，由於類型不同，可能導致資料遺失 (正在編譯原始程式檔 ..\..\src\dice.c)
+D:\Yolo_v4\darknet\src\detector.c(507,1): warning C4244: '正在初始化': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\activations.h(115,70): warning C4244: 'return': 將 'int' 轉換為 'float'，由於類型不同，可能導致資料遺失 (正在編譯原始程式檔 ..\..\src\dice.c)
+D:\Yolo_v4\darknet\src\detector.c(508,1): warning C4244: '正在初始化': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\detection_layer.c(239,79): warning C4244: '=': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\detector.c(509,1): warning C4244: '正在初始化': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\activations.h(126,47): warning C4244: '函式': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失 (正在編譯原始程式檔 ..\..\src\dice.c)
+D:\Yolo_v4\darknet\src\detection_layer.c(240,79): warning C4244: '=': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\activations.h(126,116): warning C4244: '函式': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失 (正在編譯原始程式檔 ..\..\src\dice.c)
+D:\Yolo_v4\darknet\src\detector.c(534,31): warning C4244: '=': 將 'int' 轉換為 'float'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\activations.h(126,127): warning C4244: 'return': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失 (正在編譯原始程式檔 ..\..\src\dice.c)
+D:\Yolo_v4\darknet\src\detector.c(535,31): warning C4244: '=': 將 'int' 轉換為 'float'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\detection_layer.c(304,63): warning C4244: '=': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\detector.c(527,1): warning C4244: '正在初始化': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\detection_layer.c(305,63): warning C4244: '=': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\detector.c(528,1): warning C4244: '正在初始化': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\detector.c(529,1): warning C4244: '正在初始化': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\detector.c(530,1): warning C4244: '正在初始化': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\detector.c(563,31): warning C4244: '=': 將 'int' 轉換為 'float'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\detector.c(564,31): warning C4244: '=': 將 'int' 轉換為 'float'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\detector.c(556,1): warning C4244: '正在初始化': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\detector.c(557,1): warning C4244: '正在初始化': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\detector.c(558,1): warning C4244: '正在初始化': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\detector.c(559,1): warning C4244: '正在初始化': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\detector.c(625,31): warning C4244: '=': 將 'int' 轉換為 'float'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\detector.c(626,31): warning C4244: '=': 將 'int' 轉換為 'float'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\detector.c(618,1): warning C4244: '正在初始化': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\detector.c(619,1): warning C4244: '正在初始化': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\detector.c(620,1): warning C4244: '正在初始化': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\detector.c(621,1): warning C4244: '正在初始化': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\detector.c(663,18): warning C4244: '函式': 將 'time_t' 轉換為 'unsigned int'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\dice.c(9,18): warning C4244: '函式': 將 'time_t' 轉換為 'unsigned int'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\dice.c(35,41): warning C4244: '=': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\detector.c(733,1): warning C4305: '正在初始化': 從 'double' 轉換為 'float'，是由較大的類型轉換為較小的類型，可能導致資料遺失
+D:\Yolo_v4\darknet\src\dice.c(36,16): warning C4477: 'printf' : 格式字串 '%ld' 需要 'long' 類型的引數，但 variadic 引數 5 的類型為 'uint64_t'
+D:\Yolo_v4\darknet\src\dice.c(36,16): message : 請考慮在格式字串中使用 '%lld'
+D:\Yolo_v4\darknet\src\dice.c(36,16): message : 請考慮在格式字串中使用 '%Id'
+D:\Yolo_v4\darknet\src\dice.c(36,16): message : 請考慮在格式字串中使用 '%I64d'
+D:\Yolo_v4\darknet\src\detector.c(734,1): warning C4305: '正在初始化': 從 'double' 轉換為 'float'，是由較大的類型轉換為較小的類型，可能導致資料遺失
+D:\Yolo_v4\darknet\src\dice.c(38,51): warning C4305: '*=': 從 'double' 轉換為 'float'，是由較大的類型轉換為較小的類型，可能導致資料遺失
+D:\Yolo_v4\darknet\src\dice.c(20,1): warning C4244: '正在初始化': 將 'uint64_t' 轉換為 'int'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\detector.c(852,18): warning C4244: '函式': 將 'time_t' 轉換為 'unsigned int'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\dice.c(53,18): warning C4244: '函式': 將 'time_t' 轉換為 'unsigned int'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\detector.c(867,1): warning C4305: '正在初始化': 從 'double' 轉換為 'float'，是由較大的類型轉換為較小的類型，可能導致資料遺失
+  gettimeofday.c
+D:\Yolo_v4\darknet\src\detector.c(869,1): warning C4305: '正在初始化': 從 'double' 轉換為 'float'，是由較大的類型轉換為較小的類型，可能導致資料遺失
+D:\Yolo_v4\darknet\src\detector.c(977,18): warning C4244: '函式': 將 'time_t' 轉換為 'unsigned int'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\detector.c(1415,34): warning C4244: 'return': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\detector.c(1005,1): warning C4305: '正在初始化': 從 'double' 轉換為 'const float'，是由較大的類型轉換為較小的類型，可能導致資料遺失
+D:\Yolo_v4\darknet\src\detector.c(1006,1): warning C4305: '正在初始化': 從 'double' 轉換為 'const float'，是由較大的類型轉換為較小的類型，可能導致資料遺失
+D:\Yolo_v4\darknet\src\detector.c(1465,18): warning C4244: '函式': 將 'time_t' 轉換為 'unsigned int'，由於類型不同，可能導致資料遺失
+  go.c
+D:\Yolo_v4\darknet\src\detector.c(1663,1): warning C4305: '正在初始化': 從 'double' 轉換為 'float'，是由較大的類型轉換為較小的類型，可能導致資料遺失
+D:\Yolo_v4\darknet\src\activations.h(50,1): warning C4244: '正在初始化': 將 'float' 轉換為 'int'，由於類型不同，可能導致資料遺失 (正在編譯原始程式檔 ..\..\src\gemm.c)
+D:\Yolo_v4\darknet\src\activations.h(72,103): warning C4244: '函式': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失 (正在編譯原始程式檔 ..\..\src\gemm.c)
+D:\Yolo_v4\darknet\src\activations.h(72,106): warning C4244: 'return': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失 (正在編譯原始程式檔 ..\..\src\gemm.c)
+D:\Yolo_v4\darknet\src\activations.h(114,56): warning C4244: 'return': 將 'int' 轉換為 'float'，由於類型不同，可能導致資料遺失 (正在編譯原始程式檔 ..\..\src\gemm.c)
+D:\Yolo_v4\darknet\src\activations.h(115,70): warning C4244: 'return': 將 'int' 轉換為 'float'，由於類型不同，可能導致資料遺失 (正在編譯原始程式檔 ..\..\src\gemm.c)
+D:\Yolo_v4\darknet\src\activations.h(126,47): warning C4244: '函式': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失 (正在編譯原始程式檔 ..\..\src\gemm.c)
+D:\Yolo_v4\darknet\src\activations.h(126,116): warning C4244: '函式': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失 (正在編譯原始程式檔 ..\..\src\gemm.c)
+D:\Yolo_v4\darknet\src\activations.h(126,127): warning C4244: 'return': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失 (正在編譯原始程式檔 ..\..\src\gemm.c)
+D:\Yolo_v4\darknet\src\activations.h(50,1): warning C4244: '正在初始化': 將 'float' 轉換為 'int'，由於類型不同，可能導致資料遺失 (正在編譯原始程式檔 ..\..\src\gaussian_yolo_layer.c)
+D:\Yolo_v4\darknet\src\activations.h(72,103): warning C4244: '函式': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失 (正在編譯原始程式檔 ..\..\src\gaussian_yolo_layer.c)
+D:\Yolo_v4\darknet\src\activations.h(72,106): warning C4244: 'return': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失 (正在編譯原始程式檔 ..\..\src\gaussian_yolo_layer.c)
+D:\Yolo_v4\darknet\src\activations.h(114,56): warning C4244: 'return': 將 'int' 轉換為 'float'，由於類型不同，可能導致資料遺失 (正在編譯原始程式檔 ..\..\src\gaussian_yolo_layer.c)
+D:\Yolo_v4\darknet\src\activations.h(115,70): warning C4244: 'return': 將 'int' 轉換為 'float'，由於類型不同，可能導致資料遺失 (正在編譯原始程式檔 ..\..\src\gaussian_yolo_layer.c)
+D:\Yolo_v4\darknet\src\activations.h(126,47): warning C4244: '函式': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失 (正在編譯原始程式檔 ..\..\src\gaussian_yolo_layer.c)
+D:\Yolo_v4\darknet\src\activations.h(126,116): warning C4244: '函式': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失 (正在編譯原始程式檔 ..\..\src\gaussian_yolo_layer.c)
+D:\Yolo_v4\darknet\src\activations.h(126,127): warning C4244: 'return': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失 (正在編譯原始程式檔 ..\..\src\gaussian_yolo_layer.c)
+D:\Yolo_v4\darknet\src\gaussian_yolo_layer.c(88,18): warning C4244: '函式': 將 'time_t' 轉換為 'unsigned int'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\gaussian_yolo_layer.c(140,57): warning C4244: '=': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\gaussian_yolo_layer.c(141,61): warning C4244: '=': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\gaussian_yolo_layer.c(197,40): warning C4244: '=': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\gaussian_yolo_layer.c(198,44): warning C4244: '=': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\gaussian_yolo_layer.c(295,41): warning C4244: '*=': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\gaussian_yolo_layer.c(296,41): warning C4244: '*=': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\gaussian_yolo_layer.c(186,1): warning C4305: '正在初始化': 從 'double' 轉換為 'float'，是由較大的類型轉換為較小的類型，可能導致資料遺失
+D:\Yolo_v4\darknet\src\gaussian_yolo_layer.c(187,1): warning C4244: '正在初始化': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\gaussian_yolo_layer.c(218,1): warning C4244: '正在初始化': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\gaussian_yolo_layer.c(219,1): warning C4244: '正在初始化': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\gaussian_yolo_layer.c(222,1): warning C4244: '正在初始化': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\gaussian_yolo_layer.c(223,1): warning C4244: '正在初始化': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\gaussian_yolo_layer.c(226,1): warning C4244: '正在初始化': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\gaussian_yolo_layer.c(227,1): warning C4244: '正在初始化': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\gaussian_yolo_layer.c(230,1): warning C4244: '正在初始化': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\gaussian_yolo_layer.c(231,1): warning C4244: '正在初始化': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\gaussian_yolo_layer.c(233,1): warning C4244: '正在初始化': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\gaussian_yolo_layer.c(234,1): warning C4244: '正在初始化': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\gaussian_yolo_layer.c(235,1): warning C4244: '正在初始化': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\gaussian_yolo_layer.c(236,1): warning C4244: '正在初始化': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\gaussian_yolo_layer.c(249,1): warning C4244: '正在初始化': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\gaussian_yolo_layer.c(250,1): warning C4244: '正在初始化': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\gaussian_yolo_layer.c(251,1): warning C4244: '正在初始化': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\gaussian_yolo_layer.c(252,1): warning C4244: '正在初始化': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\gaussian_yolo_layer.c(254,1): warning C4244: '正在初始化': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\activations.h(50,1): warning C4244: '正在初始化': 將 'float' 轉換為 'int'，由於類型不同，可能導致資料遺失 (正在編譯原始程式檔 ..\..\src\dropout_layer.c)
+D:\Yolo_v4\darknet\src\gaussian_yolo_layer.c(255,1): warning C4244: '正在初始化': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\gaussian_yolo_layer.c(256,1): warning C4244: '正在初始化': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\activations.h(72,103): warning C4244: '函式': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失 (正在編譯原始程式檔 ..\..\src\dropout_layer.c)
+D:\Yolo_v4\darknet\src\gaussian_yolo_layer.c(257,1): warning C4244: '正在初始化': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\activations.h(72,106): warning C4244: 'return': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失 (正在編譯原始程式檔 ..\..\src\dropout_layer.c)
+D:\Yolo_v4\darknet\src\gaussian_yolo_layer.c(376,95): warning C4244: '=': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\activations.h(114,56): warning C4244: 'return': 將 'int' 轉換為 'float'，由於類型不同，可能導致資料遺失 (正在編譯原始程式檔 ..\..\src\dropout_layer.c)
+D:\Yolo_v4\darknet\src\gaussian_yolo_layer.c(386,95): warning C4244: '=': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\activations.h(115,70): warning C4244: 'return': 將 'int' 轉換為 'float'，由於類型不同，可能導致資料遺失 (正在編譯原始程式檔 ..\..\src\dropout_layer.c)
+D:\Yolo_v4\darknet\src\gaussian_yolo_layer.c(385,1): warning C4244: '正在初始化': 將 'int' 轉換為 'float'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\activations.h(126,47): warning C4244: '函式': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失 (正在編譯原始程式檔 ..\..\src\dropout_layer.c)
+D:\Yolo_v4\darknet\src\activations.h(126,116): warning C4244: '函式': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失 (正在編譯原始程式檔 ..\..\src\dropout_layer.c)
+D:\Yolo_v4\darknet\src\gaussian_yolo_layer.c(508,59): warning C4244: '=': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\activations.h(126,127): warning C4244: 'return': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失 (正在編譯原始程式檔 ..\..\src\dropout_layer.c)
+D:\Yolo_v4\darknet\src\gaussian_yolo_layer.c(539,32): warning C4244: '=': 將 'float' 轉換為 'int'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\gaussian_yolo_layer.c(540,32): warning C4244: '=': 將 'float' 轉換為 'int'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\gaussian_yolo_layer.c(545,88): warning C4244: '=': 將 'float' 轉換為 'int'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\gaussian_yolo_layer.c(546,88): warning C4244: '=': 將 'float' 轉換為 'int'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\gaussian_yolo_layer.c(549,88): warning C4244: '=': 將 'float' 轉換為 'int'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\gaussian_yolo_layer.c(550,88): warning C4244: '=': 將 'float' 轉換為 'int'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\gaussian_yolo_layer.c(686,64): warning C4244: '=': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\gaussian_yolo_layer.c(469,1): warning C4244: '正在初始化': 將 'float' 轉換為 'int'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\gaussian_yolo_layer.c(500,1): warning C4244: '正在初始化': 將 'float' 轉換為 'int'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\gaussian_yolo_layer.c(522,1): warning C4244: '正在初始化': 將 'float' 轉換為 'int'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\gaussian_yolo_layer.c(568,1): warning C4244: '正在初始化': 將 'float' 轉換為 'int'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\gaussian_yolo_layer.c(601,1): warning C4244: '正在初始化': 將 'float' 轉換為 'int'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\gaussian_yolo_layer.c(664,1): warning C4244: '正在初始化': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\gaussian_yolo_layer.c(683,1): warning C4244: '正在初始化': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\gaussian_yolo_layer.c(688,1): warning C4244: '正在初始化': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\gaussian_yolo_layer.c(737,68): warning C4244: '=': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\gaussian_yolo_layer.c(738,68): warning C4244: '=': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\gaussian_yolo_layer.c(824,1): warning C4244: '正在初始化': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\gaussian_yolo_layer.c(825,1): warning C4244: '正在初始化': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\gaussian_yolo_layer.c(849,72): warning C4244: '函式': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\gaussian_yolo_layer.c(853,72): warning C4244: '函式': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失
+  gru_layer.c
+D:\Yolo_v4\darknet\src\dropout_layer.c(29,37): warning C4244: '=': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\gemm.c(940,61): warning C4244: '函式': 將 'unsigned int' 轉換為 'float'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\gemm.c(941,61): warning C4244: '函式': 將 'unsigned int' 轉換為 'float'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\gemm.c(942,61): warning C4244: '函式': 將 'unsigned int' 轉換為 'float'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\gemm.c(943,61): warning C4244: '函式': 將 'unsigned int' 轉換為 'float'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\gemm.c(944,61): warning C4244: '函式': 將 'unsigned int' 轉換為 'float'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\gemm.c(945,61): warning C4244: '函式': 將 'unsigned int' 轉換為 'float'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\gemm.c(946,61): warning C4244: '函式': 將 'unsigned int' 轉換為 'float'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\gemm.c(947,61): warning C4244: '函式': 將 'unsigned int' 轉換為 'float'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\gemm.c(1068,1): warning C4244: '正在初始化': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\gemm.c(1052,13): warning C4101: 'all256_last_zero': 未參考的區域變數
+D:\Yolo_v4\darknet\src\gemm.c(1057,12): warning C4101: 'all256_one': 未參考的區域變數
+D:\Yolo_v4\darknet\src\gemm.c(1055,13): warning C4101: 'idx256': 未參考的區域變數
+D:\Yolo_v4\darknet\src\gemm.c(1058,13): warning C4101: 'all256i_one': 未參考的區域變數
+D:\Yolo_v4\darknet\src\gemm.c(1155,78): warning C4244: 'return': 將 'unsigned __int64' 轉換為 'int'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\gemm.c(1189,39): warning C4244: 'return': 將 '__int64' 轉換為 'int'，由於類型不同，可能導致資料遺失
+  im2col.c
+  image.c
+D:\Yolo_v4\darknet\src\gemm.c(1206,45): warning C4244: 'return': 將 '__int64' 轉換為 'int'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\gemm.c(1650,17): warning C4101: 'all256_sing1': 未參考的區域變數
+D:\Yolo_v4\darknet\src\gemm.c(1785,45): warning C4244: '=': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失
+  layer.c
+  list.c
+D:\Yolo_v4\darknet\src\activations.h(50,1): warning C4244: '正在初始化': 將 'float' 轉換為 'int'，由於類型不同，可能導致資料遺失 (正在編譯原始程式檔 ..\..\src\go.c)
+D:\Yolo_v4\darknet\src\activations.h(72,103): warning C4244: '函式': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失 (正在編譯原始程式檔 ..\..\src\go.c)
+D:\Yolo_v4\darknet\src\activations.h(72,106): warning C4244: 'return': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失 (正在編譯原始程式檔 ..\..\src\go.c)
+D:\Yolo_v4\darknet\src\activations.h(114,56): warning C4244: 'return': 將 'int' 轉換為 'float'，由於類型不同，可能導致資料遺失 (正在編譯原始程式檔 ..\..\src\go.c)
+D:\Yolo_v4\darknet\src\activations.h(115,70): warning C4244: 'return': 將 'int' 轉換為 'float'，由於類型不同，可能導致資料遺失 (正在編譯原始程式檔 ..\..\src\go.c)
+D:\Yolo_v4\darknet\src\activations.h(126,47): warning C4244: '函式': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失 (正在編譯原始程式檔 ..\..\src\go.c)
+D:\Yolo_v4\darknet\src\activations.h(126,116): warning C4244: '函式': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失 (正在編譯原始程式檔 ..\..\src\go.c)
+D:\Yolo_v4\darknet\src\activations.h(126,127): warning C4244: 'return': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失 (正在編譯原始程式檔 ..\..\src\go.c)
+D:\Yolo_v4\darknet\src\go.c(118,18): warning C4244: '函式': 將 'time_t' 轉換為 'unsigned int'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\go.c(144,43): warning C4244: '=': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\go.c(145,16): warning C4477: 'printf' : 格式字串 '%ld' 需要 'long' 類型的引數，但 variadic 引數 7 的類型為 'uint64_t'
+D:\Yolo_v4\darknet\src\go.c(145,16): message : 請考慮在格式字串中使用 '%lld'
+D:\Yolo_v4\darknet\src\go.c(145,16): message : 請考慮在格式字串中使用 '%Id'
+D:\Yolo_v4\darknet\src\go.c(145,16): message : 請考慮在格式字串中使用 '%I64d'
+D:\Yolo_v4\darknet\src\go.c(147,32): warning C4244: '=': 將 'uint64_t' 轉換為 'int'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\go.c(137,1): warning C4244: '正在初始化': 將 'uint64_t' 轉換為 'int'，由於類型不同，可能導致資料遺失
+  local_layer.c
+D:\Yolo_v4\darknet\src\go.c(198,112): warning C4244: '函式': 將 'float' 轉換為 'int'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\go.c(199,112): warning C4244: '函式': 將 'float' 轉換為 'int'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\go.c(200,114): warning C4244: '函式': 將 'float' 轉換為 'int'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\go.c(201,114): warning C4244: '函式': 將 'float' 轉換為 'int'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\go.c(307,20): warning C4244: '=': 將 'int' 轉換為 'float'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\go.c(404,18): warning C4244: '函式': 將 'time_t' 轉換為 'unsigned int'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\go.c(442,18): warning C4244: '函式': 將 'time_t' 轉換為 'unsigned int'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\go.c(539,68): warning C4305: '函式': 從 'double' 轉換為 'float'，是由較大的類型轉換為較小的類型，可能導致資料遺失
+D:\Yolo_v4\darknet\src\go.c(539,72): warning C4305: '函式': 從 'double' 轉換為 'float'，是由較大的類型轉換為較小的類型，可能導致資料遺失
+D:\Yolo_v4\darknet\src\go.c(615,18): warning C4244: '函式': 將 'time_t' 轉換為 'unsigned int'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\go.c(690,80): warning C4244: '=': 將 'int' 轉換為 'float'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\go.c(764,18): warning C4244: '函式': 將 'time_t' 轉換為 'unsigned int'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\go.c(802,64): warning C4305: '函式': 從 'double' 轉換為 'float'，是由較大的類型轉換為較小的類型，可能導致資料遺失
+D:\Yolo_v4\darknet\src\go.c(802,68): warning C4305: '函式': 從 'double' 轉換為 'float'，是由較大的類型轉換為較小的類型，可能導致資料遺失
+  lstm_layer.c
+D:\Yolo_v4\darknet\src\activations.h(50,1): warning C4244: '正在初始化': 將 'float' 轉換為 'int'，由於類型不同，可能導致資料遺失 (正在編譯原始程式檔 ..\..\src\gru_layer.c)
+D:\Yolo_v4\darknet\src\activations.h(72,103): warning C4244: '函式': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失 (正在編譯原始程式檔 ..\..\src\gru_layer.c)
+D:\Yolo_v4\darknet\src\activations.h(72,106): warning C4244: 'return': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失 (正在編譯原始程式檔 ..\..\src\gru_layer.c)
+D:\Yolo_v4\darknet\src\activations.h(114,56): warning C4244: 'return': 將 'int' 轉換為 'float'，由於類型不同，可能導致資料遺失 (正在編譯原始程式檔 ..\..\src\gru_layer.c)
+D:\Yolo_v4\darknet\src\activations.h(115,70): warning C4244: 'return': 將 'int' 轉換為 'float'，由於類型不同，可能導致資料遺失 (正在編譯原始程式檔 ..\..\src\gru_layer.c)
+D:\Yolo_v4\darknet\src\activations.h(126,47): warning C4244: '函式': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失 (正在編譯原始程式檔 ..\..\src\gru_layer.c)
+D:\Yolo_v4\darknet\src\activations.h(126,116): warning C4244: '函式': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失 (正在編譯原始程式檔 ..\..\src\gru_layer.c)
+D:\Yolo_v4\darknet\src\activations.h(126,127): warning C4244: 'return': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失 (正在編譯原始程式檔 ..\..\src\gru_layer.c)
+  matrix.c
+  maxpool_layer.c
+D:\Yolo_v4\darknet\src\gettimeofday.c(39,101): warning C4244: '=': 將 'double' 轉換為 'long'，由於類型不同，可能導致資料遺失
+  network.c
+  nightmare.c
+D:\Yolo_v4\darknet\src\activations.h(50,1): warning C4244: '正在初始化': 將 'float' 轉換為 'int'，由於類型不同，可能導致資料遺失 (正在編譯原始程式檔 ..\..\src\layer.c)
+D:\Yolo_v4\darknet\src\activations.h(72,103): warning C4244: '函式': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失 (正在編譯原始程式檔 ..\..\src\layer.c)
+D:\Yolo_v4\darknet\src\activations.h(72,106): warning C4244: 'return': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失 (正在編譯原始程式檔 ..\..\src\layer.c)
+D:\Yolo_v4\darknet\src\activations.h(114,56): warning C4244: 'return': 將 'int' 轉換為 'float'，由於類型不同，可能導致資料遺失 (正在編譯原始程式檔 ..\..\src\layer.c)
+D:\Yolo_v4\darknet\src\activations.h(115,70): warning C4244: 'return': 將 'int' 轉換為 'float'，由於類型不同，可能導致資料遺失 (正在編譯原始程式檔 ..\..\src\layer.c)
+D:\Yolo_v4\darknet\src\activations.h(126,47): warning C4244: '函式': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失 (正在編譯原始程式檔 ..\..\src\layer.c)
+D:\Yolo_v4\darknet\src\activations.h(126,116): warning C4244: '函式': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失 (正在編譯原始程式檔 ..\..\src\layer.c)
+D:\Yolo_v4\darknet\src\activations.h(126,127): warning C4244: 'return': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失 (正在編譯原始程式檔 ..\..\src\layer.c)
+D:\Yolo_v4\darknet\src\activations.h(50,1): warning C4244: '正在初始化': 將 'float' 轉換為 'int'，由於類型不同，可能導致資料遺失 (正在編譯原始程式檔 ..\..\src\local_layer.c)
+D:\Yolo_v4\darknet\src\activations.h(72,103): warning C4244: '函式': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失 (正在編譯原始程式檔 ..\..\src\local_layer.c)
+D:\Yolo_v4\darknet\src\activations.h(72,106): warning C4244: 'return': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失 (正在編譯原始程式檔 ..\..\src\local_layer.c)
+D:\Yolo_v4\darknet\src\activations.h(114,56): warning C4244: 'return': 將 'int' 轉換為 'float'，由於類型不同，可能導致資料遺失 (正在編譯原始程式檔 ..\..\src\local_layer.c)
+D:\Yolo_v4\darknet\src\activations.h(115,70): warning C4244: 'return': 將 'int' 轉換為 'float'，由於類型不同，可能導致資料遺失 (正在編譯原始程式檔 ..\..\src\local_layer.c)
+D:\Yolo_v4\darknet\src\activations.h(126,47): warning C4244: '函式': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失 (正在編譯原始程式檔 ..\..\src\local_layer.c)
+D:\Yolo_v4\darknet\src\activations.h(126,116): warning C4244: '函式': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失 (正在編譯原始程式檔 ..\..\src\local_layer.c)
+D:\Yolo_v4\darknet\src\activations.h(126,127): warning C4244: 'return': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失 (正在編譯原始程式檔 ..\..\src\local_layer.c)
+D:\Yolo_v4\darknet\src\local_layer.c(57,1): warning C4244: '正在初始化': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\activations.h(50,1): warning C4244: '正在初始化': 將 'float' 轉換為 'int'，由於類型不同，可能導致資料遺失 (正在編譯原始程式檔 ..\..\src\lstm_layer.c)
+D:\Yolo_v4\darknet\src\activations.h(72,103): warning C4244: '函式': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失 (正在編譯原始程式檔 ..\..\src\lstm_layer.c)
+D:\Yolo_v4\darknet\src\activations.h(72,106): warning C4244: 'return': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失 (正在編譯原始程式檔 ..\..\src\lstm_layer.c)
+D:\Yolo_v4\darknet\src\activations.h(114,56): warning C4244: 'return': 將 'int' 轉換為 'float'，由於類型不同，可能導致資料遺失 (正在編譯原始程式檔 ..\..\src\lstm_layer.c)
+D:\Yolo_v4\darknet\src\activations.h(115,70): warning C4244: 'return': 將 'int' 轉換為 'float'，由於類型不同，可能導致資料遺失 (正在編譯原始程式檔 ..\..\src\lstm_layer.c)
+D:\Yolo_v4\darknet\src\activations.h(126,47): warning C4244: '函式': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失 (正在編譯原始程式檔 ..\..\src\lstm_layer.c)
+D:\Yolo_v4\darknet\src\activations.h(126,116): warning C4244: '函式': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失 (正在編譯原始程式檔 ..\..\src\lstm_layer.c)
+D:\Yolo_v4\darknet\src\activations.h(126,127): warning C4244: 'return': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失 (正在編譯原始程式檔 ..\..\src\lstm_layer.c)
+D:\Yolo_v4\darknet\src\activations.h(50,1): warning C4244: '正在初始化': 將 'float' 轉換為 'int'，由於類型不同，可能導致資料遺失 (正在編譯原始程式檔 ..\..\src\maxpool_layer.c)
+D:\Yolo_v4\darknet\src\activations.h(72,103): warning C4244: '函式': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失 (正在編譯原始程式檔 ..\..\src\maxpool_layer.c)
+D:\Yolo_v4\darknet\src\activations.h(72,106): warning C4244: 'return': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失 (正在編譯原始程式檔 ..\..\src\maxpool_layer.c)
+D:\Yolo_v4\darknet\src\activations.h(114,56): warning C4244: 'return': 將 'int' 轉換為 'float'，由於類型不同，可能導致資料遺失 (正在編譯原始程式檔 ..\..\src\maxpool_layer.c)
+D:\Yolo_v4\darknet\src\activations.h(115,70): warning C4244: 'return': 將 'int' 轉換為 'float'，由於類型不同，可能導致資料遺失 (正在編譯原始程式檔 ..\..\src\maxpool_layer.c)
+D:\Yolo_v4\darknet\src\activations.h(126,47): warning C4244: '函式': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失 (正在編譯原始程式檔 ..\..\src\maxpool_layer.c)
+D:\Yolo_v4\darknet\src\activations.h(126,116): warning C4244: '函式': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失 (正在編譯原始程式檔 ..\..\src\maxpool_layer.c)
+D:\Yolo_v4\darknet\src\activations.h(126,127): warning C4244: 'return': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失 (正在編譯原始程式檔 ..\..\src\maxpool_layer.c)
+  normalization_layer.c
+D:\Yolo_v4\darknet\src\maxpool_layer.c(145,64): warning C4244: '=': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\image.c(31,1): warning C4244: '正在初始化': 將 'double' 轉換為 'int'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\image.c(32,1): warning C4244: '正在初始化': 將 'double' 轉換為 'int'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\image.c(119,46): warning C4244: '函式': 將 'double' 轉換為 'int'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\image.c(136,46): warning C4244: '函式': 將 'double' 轉換為 'int'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\image.c(205,1): warning C4244: '正在初始化': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\image.c(256,1): warning C4244: '正在初始化': 將 'float' 轉換為 'int'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\image.c(257,1): warning C4244: '正在初始化': 將 'float' 轉換為 'int'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\image.c(258,1): warning C4244: '正在初始化': 將 'float' 轉換為 'int'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\image.c(259,1): warning C4244: '正在初始化': 將 'float' 轉換為 'int'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\image.c(429,72): warning C4305: '函式': 從 'double' 轉換為 'float'，是由較大的類型轉換為較小的類型，可能導致資料遺失
+D:\Yolo_v4\darknet\src\image.c(447,74): warning C4244: '函式': 將 'double' 轉換為 'int'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\image.c(449,75): warning C4305: '函式': 從 'double' 轉換為 'const float'，是由較大的類型轉換為較小的類型，可能導致資料遺失
+D:\Yolo_v4\darknet\src\image.c(454,65): warning C4244: '函式': 將 'float' 轉換為 'int'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\image.c(454,75): warning C4244: '函式': 將 'float' 轉換為 'int'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\image.c(369,1): warning C4244: '正在初始化': 將 'double' 轉換為 'int'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\image.c(395,1): warning C4244: '正在初始化': 將 'double' 轉換為 'int'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\image.c(396,1): warning C4244: '正在初始化': 將 'double' 轉換為 'int'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\image.c(397,1): warning C4244: '正在初始化': 將 'double' 轉換為 'int'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\image.c(398,1): warning C4244: '正在初始化': 將 'double' 轉換為 'int'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\image.c(485,46): warning C4244: '=': 將 'double' 轉換為 'int'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\image.c(519,81): warning C4244: '函式': 將 'double' 轉換為 'int'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\image.c(482,1): warning C4244: '正在初始化': 將 'double' 轉換為 'int'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\image.c(502,1): warning C4244: '正在初始化': 將 'double' 轉換為 'int'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\image.c(503,1): warning C4244: '正在初始化': 將 'double' 轉換為 'int'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\image.c(504,1): warning C4244: '正在初始化': 將 'double' 轉換為 'int'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\image.c(505,1): warning C4244: '正在初始化': 將 'double' 轉換為 'int'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\image.c(585,75): warning C4244: '+=': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\image.c(589,42): warning C4244: '=': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\image.c(807,49): warning C4244: '=': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\image.c(818,61): warning C4244: '=': 將 'double' 轉換為 'int'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\image.c(837,1): warning C4244: '正在初始化': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\image.c(838,1): warning C4244: '正在初始化': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\image.c(843,1): warning C4244: '正在初始化': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\image.c(844,1): warning C4244: '正在初始化': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\image.c(856,1): warning C4244: '正在初始化': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\image.c(857,1): warning C4244: '正在初始化': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\image.c(862,1): warning C4244: '正在初始化': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\image.c(863,1): warning C4244: '正在初始化': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\image.c(909,1): warning C4244: '正在初始化': 將 'double' 轉換為 'int'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\image.c(1062,1): warning C4244: '正在初始化': 將 'float' 轉換為 'int'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\image.c(1065,1): warning C4244: '正在初始化': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\image.c(1067,1): warning C4244: '正在初始化': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\image.c(1068,1): warning C4244: '正在初始化': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\image.c(1118,25): warning C4244: '=': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\image.c(1142,1): warning C4244: '正在初始化': 將 'double' 轉換為 'int'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\image.c(1173,1): warning C4305: '正在初始化': 從 'double' 轉換為 'float'，是由較大的類型轉換為較小的類型，可能導致資料遺失
+D:\Yolo_v4\darknet\src\image.c(1189,46): warning C4244: '=': 將 'int' 轉換為 'float'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\image.c(1333,87): warning C4244: '=': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\image.c(1375,43): warning C4244: '=': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\image.c(1447,25): warning C4305: '函式': 從 'double' 轉換為 'float'，是由較大的類型轉換為較小的類型，可能導致資料遺失
+  option_list.c
+D:\Yolo_v4\darknet\src\image.c(1448,26): warning C4305: '函式': 從 'double' 轉換為 'float'，是由較大的類型轉換為較小的類型，可能導致資料遺失
+D:\Yolo_v4\darknet\src\image.c(1448,34): warning C4305: '函式': 從 'double' 轉換為 'float'，是由較大的類型轉換為較小的類型，可能導致資料遺失
+D:\Yolo_v4\darknet\src\image.c(1448,42): warning C4305: '函式': 從 'double' 轉換為 'float'，是由較大的類型轉換為較小的類型，可能導致資料遺失
+D:\Yolo_v4\darknet\src\image.c(1449,25): warning C4305: '函式': 從 'double' 轉換為 'float'，是由較大的類型轉換為較小的類型，可能導致資料遺失
+D:\Yolo_v4\darknet\src\image.c(1449,38): warning C4305: '函式': 從 'double' 轉換為 'float'，是由較大的類型轉換為較小的類型，可能導致資料遺失
+D:\Yolo_v4\darknet\src\image.c(1450,25): warning C4305: '函式': 從 'double' 轉換為 'float'，是由較大的類型轉換為較小的類型，可能導致資料遺失
+D:\Yolo_v4\darknet\src\image.c(1450,33): warning C4305: '函式': 從 'double' 轉換為 'float'，是由較大的類型轉換為較小的類型，可能導致資料遺失
+D:\Yolo_v4\darknet\src\image.c(1516,65): warning C4244: '=': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\image.c(1702,67): warning C4244: '=': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失
+  parser.c
+  region_layer.c
+  reorg_layer.c
+  reorg_old_layer.c
+D:\Yolo_v4\darknet\src\activations.h(50,1): warning C4244: '正在初始化': 將 'float' 轉換為 'int'，由於類型不同，可能導致資料遺失 (正在編譯原始程式檔 ..\..\src\network.c)
+D:\Yolo_v4\darknet\src\activations.h(72,103): warning C4244: '函式': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失 (正在編譯原始程式檔 ..\..\src\network.c)
+D:\Yolo_v4\darknet\src\activations.h(72,106): warning C4244: 'return': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失 (正在編譯原始程式檔 ..\..\src\network.c)
+D:\Yolo_v4\darknet\src\activations.h(114,56): warning C4244: 'return': 將 'int' 轉換為 'float'，由於類型不同，可能導致資料遺失 (正在編譯原始程式檔 ..\..\src\network.c)
+D:\Yolo_v4\darknet\src\activations.h(115,70): warning C4244: 'return': 將 'int' 轉換為 'float'，由於類型不同，可能導致資料遺失 (正在編譯原始程式檔 ..\..\src\network.c)
+D:\Yolo_v4\darknet\src\activations.h(126,47): warning C4244: '函式': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失 (正在編譯原始程式檔 ..\..\src\network.c)
+D:\Yolo_v4\darknet\src\activations.h(126,116): warning C4244: '函式': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失 (正在編譯原始程式檔 ..\..\src\network.c)
+D:\Yolo_v4\darknet\src\activations.h(126,127): warning C4244: 'return': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失 (正在編譯原始程式檔 ..\..\src\network.c)
+D:\Yolo_v4\darknet\src\network.c(67,1): warning C4244: '正在初始化': 將 'uint64_t' 轉換為 'int'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\network.c(115,55): warning C4244: '*=': 將 'float' 轉換為 'int'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\network.c(120,33): warning C4244: 'return': 將 'int' 轉換為 'float'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\network.c(136,107): warning C4244: 'return': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\network.c(141,74): warning C4244: 'return': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\network.c(151,65): warning C4244: 'return': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\network.c(153,94): warning C4244: 'return': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\network.c(157,73): warning C4244: 'return': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\network.c(159,87): warning C4244: 'return': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\network.c(171,96): warning C4244: '=': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\network.c(435,1): warning C4244: '正在初始化': 將 'double' 轉換為 'int'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\network.c(464,1): warning C4305: '正在初始化': 從 'double' 轉換為 'float'，是由較大的類型轉換為較小的類型，可能導致資料遺失
+D:\Yolo_v4\darknet\src\network.c(1002,1): warning C4305: '正在初始化': 從 'double' 轉換為 'const float'，是由較大的類型轉換為較小的類型，可能導致資料遺失
+D:\Yolo_v4\darknet\src\network.c(1030,1): warning C4267: '正在初始化': 將 'size_t' 轉換為 'int'，資料可能遺失
+D:\Yolo_v4\darknet\src\network.c(1031,1): warning C4267: '正在初始化': 將 'size_t' 轉換為 'int'，資料可能遺失
+D:\Yolo_v4\darknet\src\network.c(1187,1): warning C4244: '正在初始化': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\network.c(1188,1): warning C4244: '正在初始化': 將 'int' 轉換為 'float'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\network.c(1275,1): warning C4305: '正在初始化': 從 'double' 轉換為 'const float'，是由較大的類型轉換為較小的類型，可能導致資料遺失
+D:\Yolo_v4\darknet\src\network.c(1297,142): warning C4244: '=': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\network.c(1306,59): warning C4244: '*=': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\network.c(1304,1): warning C4267: '正在初始化': 將 'size_t' 轉換為 'int'，資料可能遺失
+D:\Yolo_v4\darknet\src\network.c(1344,1): warning C4305: '正在初始化': 從 'double' 轉換為 'const float'，是由較大的類型轉換為較小的類型，可能導致資料遺失
+D:\Yolo_v4\darknet\src\network.c(1659,1): warning C4244: '正在初始化': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\option_list.c(142,25): warning C4244: 'return': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\option_list.c(149,25): warning C4244: 'return': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\activations.h(50,1): warning C4244: '正在初始化': 將 'float' 轉換為 'int'，由於類型不同，可能導致資料遺失 (正在編譯原始程式檔 ..\..\src\nightmare.c)
+D:\Yolo_v4\darknet\src\activations.h(72,103): warning C4244: '函式': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失 (正在編譯原始程式檔 ..\..\src\nightmare.c)
+D:\Yolo_v4\darknet\src\activations.h(72,106): warning C4244: 'return': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失 (正在編譯原始程式檔 ..\..\src\nightmare.c)
+D:\Yolo_v4\darknet\src\activations.h(114,56): warning C4244: 'return': 將 'int' 轉換為 'float'，由於類型不同，可能導致資料遺失 (正在編譯原始程式檔 ..\..\src\nightmare.c)
+D:\Yolo_v4\darknet\src\activations.h(115,70): warning C4244: 'return': 將 'int' 轉換為 'float'，由於類型不同，可能導致資料遺失 (正在編譯原始程式檔 ..\..\src\nightmare.c)
+D:\Yolo_v4\darknet\src\activations.h(126,47): warning C4244: '函式': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失 (正在編譯原始程式檔 ..\..\src\nightmare.c)
+D:\Yolo_v4\darknet\src\activations.h(126,116): warning C4244: '函式': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失 (正在編譯原始程式檔 ..\..\src\nightmare.c)
+D:\Yolo_v4\darknet\src\activations.h(126,127): warning C4244: 'return': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失 (正在編譯原始程式檔 ..\..\src\nightmare.c)
+D:\Yolo_v4\darknet\src\nightmare.c(14,26): warning C4244: '+=': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失
+  representation_layer.c
+D:\Yolo_v4\darknet\src\nightmare.c(180,18): warning C4244: '函式': 將 'time_t' 轉換為 'unsigned int'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\nightmare.c(197,57): warning C4305: '函式': 從 'double' 轉換為 'float'，是由較大的類型轉換為較小的類型，可能導致資料遺失
+D:\Yolo_v4\darknet\src\nightmare.c(200,64): warning C4305: '函式': 從 'double' 轉換為 'float'，是由較大的類型轉換為較小的類型，可能導致資料遺失
+D:\Yolo_v4\darknet\src\nightmare.c(201,61): warning C4305: '函式': 從 'double' 轉換為 'float'，是由較大的類型轉換為較小的類型，可能導致資料遺失
+D:\Yolo_v4\darknet\src\nightmare.c(216,47): warning C4244: '=': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\nightmare.c(217,36): warning C4244: '=': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\nightmare.c(219,52): warning C4244: '函式': 將 'float' 轉換為 'int'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\nightmare.c(219,64): warning C4244: '函式': 將 'float' 轉換為 'int'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\nightmare.c(245,45): warning C4305: '函式': 從 'double' 轉換為 'float'，是由較大的類型轉換為較小的類型，可能導致資料遺失
+D:\Yolo_v4\darknet\src\nightmare.c(245,50): warning C4305: '函式': 從 'double' 轉換為 'float'，是由較大的類型轉換為較小的類型，可能導致資料遺失
+D:\Yolo_v4\darknet\src\nightmare.c(272,76): warning C4244: '函式': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\nightmare.c(297,58): warning C4244: '函式': 將 'double' 轉換為 'int'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\nightmare.c(297,79): warning C4244: '函式': 將 'double' 轉換為 'int'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\nightmare.c(297,90): warning C4244: '函式': 將 'float' 轉換為 'int'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\nightmare.c(297,101): warning C4244: '函式': 將 'float' 轉換為 'int'，由於類型不同，可能導致資料遺失
+  rnn.c
+  rnn_layer.c
+D:\Yolo_v4\darknet\src\activations.h(50,1): warning C4244: '正在初始化': 將 'float' 轉換為 'int'，由於類型不同，可能導致資料遺失 (正在編譯原始程式檔 ..\..\src\normalization_layer.c)
+D:\Yolo_v4\darknet\src\activations.h(72,103): warning C4244: '函式': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失 (正在編譯原始程式檔 ..\..\src\normalization_layer.c)
+D:\Yolo_v4\darknet\src\activations.h(72,106): warning C4244: 'return': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失 (正在編譯原始程式檔 ..\..\src\normalization_layer.c)
+D:\Yolo_v4\darknet\src\activations.h(114,56): warning C4244: 'return': 將 'int' 轉換為 'float'，由於類型不同，可能導致資料遺失 (正在編譯原始程式檔 ..\..\src\normalization_layer.c)
+D:\Yolo_v4\darknet\src\activations.h(115,70): warning C4244: 'return': 將 'int' 轉換為 'float'，由於類型不同，可能導致資料遺失 (正在編譯原始程式檔 ..\..\src\normalization_layer.c)
+D:\Yolo_v4\darknet\src\activations.h(126,47): warning C4244: '函式': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失 (正在編譯原始程式檔 ..\..\src\normalization_layer.c)
+D:\Yolo_v4\darknet\src\activations.h(126,116): warning C4244: '函式': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失 (正在編譯原始程式檔 ..\..\src\normalization_layer.c)
+D:\Yolo_v4\darknet\src\activations.h(126,127): warning C4244: 'return': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失 (正在編譯原始程式檔 ..\..\src\normalization_layer.c)
+  rnn_vid.c
+D:\Yolo_v4\darknet\src\activations.h(50,1): warning C4244: '正在初始化': 將 'float' 轉換為 'int'，由於類型不同，可能導致資料遺失 (正在編譯原始程式檔 ..\..\src\region_layer.c)
+D:\Yolo_v4\darknet\src\activations.h(50,1): warning C4244: '正在初始化': 將 'float' 轉換為 'int'，由於類型不同，可能導致資料遺失 (正在編譯原始程式檔 ..\..\src\reorg_layer.c)
+D:\Yolo_v4\darknet\src\activations.h(72,103): warning C4244: '函式': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失 (正在編譯原始程式檔 ..\..\src\reorg_layer.c)
+D:\Yolo_v4\darknet\src\activations.h(72,103): warning C4244: '函式': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失 (正在編譯原始程式檔 ..\..\src\region_layer.c)
+D:\Yolo_v4\darknet\src\activations.h(72,106): warning C4244: 'return': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失 (正在編譯原始程式檔 ..\..\src\reorg_layer.c)
+D:\Yolo_v4\darknet\src\activations.h(72,106): warning C4244: 'return': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失 (正在編譯原始程式檔 ..\..\src\region_layer.c)
+D:\Yolo_v4\darknet\src\activations.h(114,56): warning C4244: 'return': 將 'int' 轉換為 'float'，由於類型不同，可能導致資料遺失 (正在編譯原始程式檔 ..\..\src\region_layer.c)
+D:\Yolo_v4\darknet\src\activations.h(114,56): warning C4244: 'return': 將 'int' 轉換為 'float'，由於類型不同，可能導致資料遺失 (正在編譯原始程式檔 ..\..\src\reorg_layer.c)
+D:\Yolo_v4\darknet\src\activations.h(115,70): warning C4244: 'return': 將 'int' 轉換為 'float'，由於類型不同，可能導致資料遺失 (正在編譯原始程式檔 ..\..\src\region_layer.c)
+D:\Yolo_v4\darknet\src\activations.h(115,70): warning C4244: 'return': 將 'int' 轉換為 'float'，由於類型不同，可能導致資料遺失 (正在編譯原始程式檔 ..\..\src\reorg_layer.c)
+D:\Yolo_v4\darknet\src\activations.h(126,47): warning C4244: '函式': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失 (正在編譯原始程式檔 ..\..\src\region_layer.c)
+D:\Yolo_v4\darknet\src\activations.h(50,1): warning C4244: '正在初始化': 將 'float' 轉換為 'int'，由於類型不同，可能導致資料遺失 (正在編譯原始程式檔 ..\..\src\parser.c)
+D:\Yolo_v4\darknet\src\activations.h(126,47): warning C4244: '函式': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失 (正在編譯原始程式檔 ..\..\src\reorg_layer.c)
+D:\Yolo_v4\darknet\src\activations.h(126,116): warning C4244: '函式': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失 (正在編譯原始程式檔 ..\..\src\region_layer.c)
+D:\Yolo_v4\darknet\src\activations.h(126,116): warning C4244: '函式': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失 (正在編譯原始程式檔 ..\..\src\reorg_layer.c)
+D:\Yolo_v4\darknet\src\activations.h(126,127): warning C4244: 'return': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失 (正在編譯原始程式檔 ..\..\src\region_layer.c)
+D:\Yolo_v4\darknet\src\activations.h(72,103): warning C4244: '函式': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失 (正在編譯原始程式檔 ..\..\src\parser.c)
+D:\Yolo_v4\darknet\src\activations.h(126,127): warning C4244: 'return': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失 (正在編譯原始程式檔 ..\..\src\reorg_layer.c)
+D:\Yolo_v4\darknet\src\activations.h(72,106): warning C4244: 'return': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失 (正在編譯原始程式檔 ..\..\src\parser.c)
+D:\Yolo_v4\darknet\src\activations.h(114,56): warning C4244: 'return': 將 'int' 轉換為 'float'，由於類型不同，可能導致資料遺失 (正在編譯原始程式檔 ..\..\src\parser.c)
+D:\Yolo_v4\darknet\src\activations.h(115,70): warning C4244: 'return': 將 'int' 轉換為 'float'，由於類型不同，可能導致資料遺失 (正在編譯原始程式檔 ..\..\src\parser.c)
+D:\Yolo_v4\darknet\src\activations.h(126,47): warning C4244: '函式': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失 (正在編譯原始程式檔 ..\..\src\parser.c)
+D:\Yolo_v4\darknet\src\activations.h(126,116): warning C4244: '函式': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失 (正在編譯原始程式檔 ..\..\src\parser.c)
+D:\Yolo_v4\darknet\src\activations.h(126,127): warning C4244: 'return': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失 (正在編譯原始程式檔 ..\..\src\parser.c)
+D:\Yolo_v4\darknet\src\reorg_layer.c(26,24): warning C4244: '=': 將 'int' 轉換為 'float'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\region_layer.c(54,18): warning C4244: '函式': 將 'time_t' 轉換為 'unsigned int'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\region_layer.c(91,42): warning C4244: '=': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\region_layer.c(92,44): warning C4244: '=': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\region_layer.c(94,52): warning C4244: '=': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\region_layer.c(95,52): warning C4244: '=': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\region_layer.c(110,42): warning C4244: '=': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\region_layer.c(111,46): warning C4244: '=': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\region_layer.c(107,1): warning C4244: '正在初始化': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\region_layer.c(108,1): warning C4244: '正在初始化': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\region_layer.c(171,25): warning C4244: 'return': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\region_layer.c(176,20): warning C4244: 'return': 將 'int' 轉換為 'float'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\region_layer.c(272,89): warning C4244: '=': 將 'float' 轉換為 'int'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\region_layer.c(291,47): warning C4244: '=': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\region_layer.c(292,47): warning C4244: '=': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\region_layer.c(299,107): warning C4305: '函式': 從 'double' 轉換為 'float'，是由較大的類型轉換為較小的類型，可能導致資料遺失
+D:\Yolo_v4\darknet\src\region_layer.c(317,32): warning C4244: '=': 將 'float' 轉換為 'int'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\region_layer.c(318,32): warning C4244: '=': 將 'float' 轉換為 'int'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\region_layer.c(368,64): warning C4244: '=': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\region_layer.c(236,1): warning C4244: '正在初始化': 將 'float' 轉換為 'int'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\region_layer.c(267,1): warning C4244: '正在初始化': 將 'float' 轉換為 'int'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\region_layer.c(306,1): warning C4244: '正在初始化': 將 'float' 轉換為 'int'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\region_layer.c(499,73): warning C4244: '=': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\region_layer.c(500,73): warning C4244: '=': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\region_layer.c(538,55): warning C4244: '=': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失
+  route_layer.c
+D:\Yolo_v4\darknet\src\activations.h(50,1): warning C4244: '正在初始化': 將 'float' 轉換為 'int'，由於類型不同，可能導致資料遺失 (正在編譯原始程式檔 ..\..\src\reorg_old_layer.c)
+D:\Yolo_v4\darknet\src\activations.h(72,103): warning C4244: '函式': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失 (正在編譯原始程式檔 ..\..\src\reorg_old_layer.c)
+D:\Yolo_v4\darknet\src\activations.h(72,106): warning C4244: 'return': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失 (正在編譯原始程式檔 ..\..\src\reorg_old_layer.c)
+D:\Yolo_v4\darknet\src\activations.h(114,56): warning C4244: 'return': 將 'int' 轉換為 'float'，由於類型不同，可能導致資料遺失 (正在編譯原始程式檔 ..\..\src\reorg_old_layer.c)
+D:\Yolo_v4\darknet\src\activations.h(115,70): warning C4244: 'return': 將 'int' 轉換為 'float'，由於類型不同，可能導致資料遺失 (正在編譯原始程式檔 ..\..\src\reorg_old_layer.c)
+D:\Yolo_v4\darknet\src\activations.h(126,47): warning C4244: '函式': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失 (正在編譯原始程式檔 ..\..\src\reorg_old_layer.c)
+D:\Yolo_v4\darknet\src\activations.h(126,116): warning C4244: '函式': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失 (正在編譯原始程式檔 ..\..\src\reorg_old_layer.c)
+D:\Yolo_v4\darknet\src\activations.h(126,127): warning C4244: 'return': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失 (正在編譯原始程式檔 ..\..\src\reorg_old_layer.c)
+  sam_layer.c
+D:\Yolo_v4\darknet\src\parser.c(196,1): warning C4244: '正在初始化': 將 'float' 轉換為 'int'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\parser.c(373,64): warning C4244: '=': 將 'float' 轉換為 'int'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\parser.c(404,1): warning C4267: '正在初始化': 將 'size_t' 轉換為 'int'，資料可能遺失
+D:\Yolo_v4\darknet\src\parser.c(436,89): warning C4244: '=': 將 'int' 轉換為 'float'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\parser.c(500,66): warning C4305: '函式': 從 'double' 轉換為 'float'，是由較大的類型轉換為較小的類型，可能導致資料遺失
+D:\Yolo_v4\darknet\src\parser.c(510,55): warning C4305: '函式': 從 'double' 轉換為 'float'，是由較大的類型轉換為較小的類型，可能導致資料遺失
+D:\Yolo_v4\darknet\src\reorg_old_layer.c(26,24): warning C4244: '=': 將 'int' 轉換為 'float'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\parser.c(520,68): warning C4244: '函式': 將 'double' 轉換為 'int'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\parser.c(520,69): warning C4244: '=': 將 'int' 轉換為 'float'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\parser.c(523,81): warning C4305: '函式': 從 'double' 轉換為 'float'，是由較大的類型轉換為較小的類型，可能導致資料遺失
+D:\Yolo_v4\darknet\src\parser.c(544,1): warning C4267: '正在初始化': 將 'size_t' 轉換為 'int'，資料可能遺失
+D:\Yolo_v4\darknet\src\parser.c(552,1): warning C4244: '正在初始化': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\parser.c(565,1): warning C4267: '正在初始化': 將 'size_t' 轉換為 'int'，資料可能遺失
+D:\Yolo_v4\darknet\src\parser.c(630,66): warning C4305: '函式': 從 'double' 轉換為 'float'，是由較大的類型轉換為較小的類型，可能導致資料遺失
+D:\Yolo_v4\darknet\src\parser.c(649,55): warning C4305: '函式': 從 'double' 轉換為 'float'，是由較大的類型轉換為較小的類型，可能導致資料遺失
+D:\Yolo_v4\darknet\src\parser.c(662,1): warning C4267: '正在初始化': 將 'size_t' 轉換為 'int'，資料可能遺失
+D:\Yolo_v4\darknet\src\parser.c(669,1): warning C4244: '正在初始化': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\parser.c(698,55): warning C4305: '函式': 從 'double' 轉換為 'float'，是由較大的類型轉換為較小的類型，可能導致資料遺失
+D:\Yolo_v4\darknet\src\parser.c(721,1): warning C4267: '正在初始化': 將 'size_t' 轉換為 'int'，資料可能遺失
+D:\Yolo_v4\darknet\src\parser.c(728,1): warning C4244: '正在初始化': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\parser.c(753,59): warning C4305: '函式': 從 'double' 轉換為 'float'，是由較大的類型轉換為較小的類型，可能導致資料遺失
+D:\Yolo_v4\darknet\src\parser.c(889,69): warning C4305: '函式': 從 'double' 轉換為 'float'，是由較大的類型轉換為較小的類型，可能導致資料遺失
+D:\Yolo_v4\darknet\src\parser.c(892,1): warning C4244: '正在初始化': 將 'float' 轉換為 'int'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\parser.c(914,60): warning C4305: '函式': 從 'double' 轉換為 'float'，是由較大的類型轉換為較小的類型，可能導致資料遺失
+D:\Yolo_v4\darknet\src\parser.c(954,1): warning C4267: '正在初始化': 將 'size_t' 轉換為 'int'，資料可能遺失
+D:\Yolo_v4\darknet\src\parser.c(1049,59): warning C4305: '函式': 從 'double' 轉換為 'float'，是由較大的類型轉換為較小的類型，可能導致資料遺失
+D:\Yolo_v4\darknet\src\parser.c(1088,1): warning C4267: '正在初始化': 將 'size_t' 轉換為 'int'，資料可能遺失
+D:\Yolo_v4\darknet\src\parser.c(1164,74): warning C4305: '函式': 從 'double' 轉換為 'float'，是由較大的類型轉換為較小的類型，可能導致資料遺失
+D:\Yolo_v4\darknet\src\parser.c(1165,90): warning C4305: '函式': 從 'double' 轉換為 'float'，是由較大的類型轉換為較小的類型，可能導致資料遺失
+D:\Yolo_v4\darknet\src\parser.c(1168,62): warning C4305: '函式': 從 'double' 轉換為 'float'，是由較大的類型轉換為較小的類型，可能導致資料遺失
+D:\Yolo_v4\darknet\src\parser.c(1169,59): warning C4305: '函式': 從 'double' 轉換為 'float'，是由較大的類型轉換為較小的類型，可能導致資料遺失
+D:\Yolo_v4\darknet\src\parser.c(1198,118): warning C4244: '=': 將 'float' 轉換為 'size_t'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\parser.c(1203,54): warning C4305: '函式': 從 'double' 轉換為 'float'，是由較大的類型轉換為較小的類型，可能導致資料遺失
+D:\Yolo_v4\darknet\src\parser.c(1204,56): warning C4305: '函式': 從 'double' 轉換為 'float'，是由較大的類型轉換為較小的類型，可能導致資料遺失
+D:\Yolo_v4\darknet\src\parser.c(1205,61): warning C4305: '函式': 從 'double' 轉換為 'float'，是由較大的類型轉換為較小的類型，可能導致資料遺失
+D:\Yolo_v4\darknet\src\parser.c(1234,75): warning C4244: '=': 將 'float' 轉換為 'int'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\parser.c(1286,36): warning C4244: '=': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\parser.c(1291,45): warning C4244: '=': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\parser.c(1273,1): warning C4267: '正在初始化': 將 'size_t' 轉換為 'int'，資料可能遺失
+D:\Yolo_v4\darknet\src\parser.c(1407,1): warning C4244: '正在初始化': 將 'float' 轉換為 'const int'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\parser.c(1909,9): warning C4101: 'i': 未參考的區域變數
+D:\Yolo_v4\darknet\src\parser.c(2184,57): warning C4267: '=': 將 'size_t' 轉換為 'int'，資料可能遺失
+D:\Yolo_v4\darknet\src\parser.c(2188,61): warning C4267: '=': 將 'size_t' 轉換為 'int'，資料可能遺失
+D:\Yolo_v4\darknet\src\parser.c(2190,67): warning C4267: '=': 將 'size_t' 轉換為 'int'，資料可能遺失
+D:\Yolo_v4\darknet\src\parser.c(2192,71): warning C4267: '=': 將 'size_t' 轉換為 'int'，資料可能遺失
+D:\Yolo_v4\darknet\src\parser.c(2210,58): warning C4267: '=': 將 'size_t' 轉換為 'int'，資料可能遺失
+D:\Yolo_v4\darknet\src\parser.c(2232,58): warning C4267: '=': 將 'size_t' 轉換為 'int'，資料可能遺失
+D:\Yolo_v4\darknet\src\parser.c(2247,58): warning C4267: '=': 將 'size_t' 轉換為 'int'，資料可能遺失
+  scale_channels_layer.c
+  shortcut_layer.c
+D:\Yolo_v4\darknet\src\activations.h(50,1): warning C4244: '正在初始化': 將 'float' 轉換為 'int'，由於類型不同，可能導致資料遺失 (正在編譯原始程式檔 ..\..\src\representation_layer.c)
+D:\Yolo_v4\darknet\src\activations.h(72,103): warning C4244: '函式': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失 (正在編譯原始程式檔 ..\..\src\representation_layer.c)
+D:\Yolo_v4\darknet\src\activations.h(72,106): warning C4244: 'return': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失 (正在編譯原始程式檔 ..\..\src\representation_layer.c)
+D:\Yolo_v4\darknet\src\activations.h(114,56): warning C4244: 'return': 將 'int' 轉換為 'float'，由於類型不同，可能導致資料遺失 (正在編譯原始程式檔 ..\..\src\representation_layer.c)
+D:\Yolo_v4\darknet\src\activations.h(115,70): warning C4244: 'return': 將 'int' 轉換為 'float'，由於類型不同，可能導致資料遺失 (正在編譯原始程式檔 ..\..\src\representation_layer.c)
+D:\Yolo_v4\darknet\src\activations.h(126,47): warning C4244: '函式': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失 (正在編譯原始程式檔 ..\..\src\representation_layer.c)
+D:\Yolo_v4\darknet\src\activations.h(126,116): warning C4244: '函式': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失 (正在編譯原始程式檔 ..\..\src\representation_layer.c)
+D:\Yolo_v4\darknet\src\activations.h(126,127): warning C4244: 'return': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失 (正在編譯原始程式檔 ..\..\src\representation_layer.c)
+  softmax_layer.c
+D:\Yolo_v4\darknet\src\activations.h(50,1): warning C4244: '正在初始化': 將 'float' 轉換為 'int'，由於類型不同，可能導致資料遺失 (正在編譯原始程式檔 ..\..\src\rnn_vid.c)
+D:\Yolo_v4\darknet\src\activations.h(72,103): warning C4244: '函式': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失 (正在編譯原始程式檔 ..\..\src\rnn_vid.c)
+D:\Yolo_v4\darknet\src\activations.h(72,106): warning C4244: 'return': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失 (正在編譯原始程式檔 ..\..\src\rnn_vid.c)
+D:\Yolo_v4\darknet\src\activations.h(114,56): warning C4244: 'return': 將 'int' 轉換為 'float'，由於類型不同，可能導致資料遺失 (正在編譯原始程式檔 ..\..\src\rnn_vid.c)
+D:\Yolo_v4\darknet\src\activations.h(115,70): warning C4244: 'return': 將 'int' 轉換為 'float'，由於類型不同，可能導致資料遺失 (正在編譯原始程式檔 ..\..\src\rnn_vid.c)
+D:\Yolo_v4\darknet\src\activations.h(126,47): warning C4244: '函式': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失 (正在編譯原始程式檔 ..\..\src\rnn_vid.c)
+D:\Yolo_v4\darknet\src\activations.h(126,116): warning C4244: '函式': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失 (正在編譯原始程式檔 ..\..\src\rnn_vid.c)
+D:\Yolo_v4\darknet\src\activations.h(126,127): warning C4244: 'return': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失 (正在編譯原始程式檔 ..\..\src\rnn_vid.c)
+D:\Yolo_v4\darknet\src\activations.h(50,1): warning C4244: '正在初始化': 將 'float' 轉換為 'int'，由於類型不同，可能導致資料遺失 (正在編譯原始程式檔 ..\..\src\rnn.c)
+D:\Yolo_v4\darknet\src\activations.h(72,103): warning C4244: '函式': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失 (正在編譯原始程式檔 ..\..\src\rnn.c)
+D:\Yolo_v4\darknet\src\activations.h(72,106): warning C4244: 'return': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失 (正在編譯原始程式檔 ..\..\src\rnn.c)
+D:\Yolo_v4\darknet\src\activations.h(114,56): warning C4244: 'return': 將 'int' 轉換為 'float'，由於類型不同，可能導致資料遺失 (正在編譯原始程式檔 ..\..\src\rnn.c)
+D:\Yolo_v4\darknet\src\activations.h(115,70): warning C4244: 'return': 將 'int' 轉換為 'float'，由於類型不同，可能導致資料遺失 (正在編譯原始程式檔 ..\..\src\rnn.c)
+D:\Yolo_v4\darknet\src\activations.h(126,47): warning C4244: '函式': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失 (正在編譯原始程式檔 ..\..\src\rnn.c)
+D:\Yolo_v4\darknet\src\activations.h(126,116): warning C4244: '函式': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失 (正在編譯原始程式檔 ..\..\src\rnn.c)
+D:\Yolo_v4\darknet\src\activations.h(126,127): warning C4244: 'return': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失 (正在編譯原始程式檔 ..\..\src\rnn.c)
+D:\Yolo_v4\darknet\src\activations.h(50,1): warning C4244: '正在初始化': 將 'float' 轉換為 'int'，由於類型不同，可能導致資料遺失 (正在編譯原始程式檔 ..\..\src\rnn_layer.c)
+D:\Yolo_v4\darknet\src\activations.h(72,103): warning C4244: '函式': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失 (正在編譯原始程式檔 ..\..\src\rnn_layer.c)
+D:\Yolo_v4\darknet\src\activations.h(72,106): warning C4244: 'return': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失 (正在編譯原始程式檔 ..\..\src\rnn_layer.c)
+D:\Yolo_v4\darknet\src\activations.h(114,56): warning C4244: 'return': 將 'int' 轉換為 'float'，由於類型不同，可能導致資料遺失 (正在編譯原始程式檔 ..\..\src\rnn_layer.c)
+D:\Yolo_v4\darknet\src\activations.h(115,70): warning C4244: 'return': 將 'int' 轉換為 'float'，由於類型不同，可能導致資料遺失 (正在編譯原始程式檔 ..\..\src\rnn_layer.c)
+D:\Yolo_v4\darknet\src\activations.h(126,47): warning C4244: '函式': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失 (正在編譯原始程式檔 ..\..\src\rnn_layer.c)
+D:\Yolo_v4\darknet\src\activations.h(126,116): warning C4244: '函式': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失 (正在編譯原始程式檔 ..\..\src\rnn_layer.c)
+D:\Yolo_v4\darknet\src\activations.h(126,127): warning C4244: 'return': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失 (正在編譯原始程式檔 ..\..\src\rnn_layer.c)
+D:\Yolo_v4\darknet\src\rnn.c(127,18): warning C4244: '函式': 將 'time_t' 轉換為 'unsigned int'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\rnn.c(165,12): warning C4477: 'printf' : 格式字串 '%ld' 需要 'long' 類型的引數，但 variadic 引數 5 的類型為 'size_t'
+D:\Yolo_v4\darknet\src\rnn.c(165,12): message : 請考慮在格式字串中使用 '%zd'
+D:\Yolo_v4\darknet\src\rnn.c(190,41): warning C4244: '=': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\rnn.c(162,1): warning C4244: '正在初始化': 將 'uint64_t' 轉換為 'int'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\rnn.c(249,1): warning C4267: '正在初始化': 將 'size_t' 轉換為 'int'，資料可能遺失
+D:\Yolo_v4\darknet\src\rnn.c(379,35): warning C4244: '+=': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\rnn.c(347,1): warning C4267: '正在初始化': 將 'size_t' 轉換為 'int'，資料可能遺失
+D:\Yolo_v4\darknet\src\rnn.c(358,1): warning C4244: '正在初始化': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\rnn.c(420,35): warning C4244: '+=': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\rnn.c(399,1): warning C4267: '正在初始化': 將 'size_t' 轉換為 'int'，資料可能遺失
+D:\Yolo_v4\darknet\src\rnn.c(410,1): warning C4244: '正在初始化': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\rnn.c(438,1): warning C4267: '正在初始化': 將 'size_t' 轉換為 'int'，資料可能遺失
+D:\Yolo_v4\darknet\src\rnn.c(451,1): warning C4267: '正在初始化': 將 'size_t' 轉換為 'int'，資料可能遺失
+D:\Yolo_v4\darknet\src\rnn.c(484,56): warning C4305: '函式': 從 'double' 轉換為 'float'，是由較大的類型轉換為較小的類型，可能導致資料遺失
+D:\Yolo_v4\darknet\src\rnn.c(485,59): warning C4244: '函式': 將 'time_t' 轉換為 'int'，由於類型不同，可能導致資料遺失
+  super.c
+  swag.c
+  tag.c
+D:\Yolo_v4\darknet\src\activations.h(50,1): warning C4244: '正在初始化': 將 'float' 轉換為 'int'，由於類型不同，可能導致資料遺失 (正在編譯原始程式檔 ..\..\src\route_layer.c)
+D:\Yolo_v4\darknet\src\activations.h(72,103): warning C4244: '函式': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失 (正在編譯原始程式檔 ..\..\src\route_layer.c)
+D:\Yolo_v4\darknet\src\activations.h(72,106): warning C4244: 'return': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失 (正在編譯原始程式檔 ..\..\src\route_layer.c)
+D:\Yolo_v4\darknet\src\activations.h(114,56): warning C4244: 'return': 將 'int' 轉換為 'float'，由於類型不同，可能導致資料遺失 (正在編譯原始程式檔 ..\..\src\route_layer.c)
+D:\Yolo_v4\darknet\src\activations.h(115,70): warning C4244: 'return': 將 'int' 轉換為 'float'，由於類型不同，可能導致資料遺失 (正在編譯原始程式檔 ..\..\src\route_layer.c)
+D:\Yolo_v4\darknet\src\activations.h(126,47): warning C4244: '函式': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失 (正在編譯原始程式檔 ..\..\src\route_layer.c)
+D:\Yolo_v4\darknet\src\activations.h(126,116): warning C4244: '函式': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失 (正在編譯原始程式檔 ..\..\src\route_layer.c)
+D:\Yolo_v4\darknet\src\activations.h(126,127): warning C4244: 'return': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失 (正在編譯原始程式檔 ..\..\src\route_layer.c)
+D:\Yolo_v4\darknet\src\activations.h(50,1): warning C4244: '正在初始化': 將 'float' 轉換為 'int'，由於類型不同，可能導致資料遺失 (正在編譯原始程式檔 ..\..\src\shortcut_layer.c)
+D:\Yolo_v4\darknet\src\activations.h(72,103): warning C4244: '函式': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失 (正在編譯原始程式檔 ..\..\src\shortcut_layer.c)
+D:\Yolo_v4\darknet\src\activations.h(72,106): warning C4244: 'return': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失 (正在編譯原始程式檔 ..\..\src\shortcut_layer.c)
+D:\Yolo_v4\darknet\src\activations.h(114,56): warning C4244: 'return': 將 'int' 轉換為 'float'，由於類型不同，可能導致資料遺失 (正在編譯原始程式檔 ..\..\src\shortcut_layer.c)
+D:\Yolo_v4\darknet\src\activations.h(115,70): warning C4244: 'return': 將 'int' 轉換為 'float'，由於類型不同，可能導致資料遺失 (正在編譯原始程式檔 ..\..\src\shortcut_layer.c)
+D:\Yolo_v4\darknet\src\activations.h(126,47): warning C4244: '函式': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失 (正在編譯原始程式檔 ..\..\src\shortcut_layer.c)
+D:\Yolo_v4\darknet\src\activations.h(126,116): warning C4244: '函式': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失 (正在編譯原始程式檔 ..\..\src\shortcut_layer.c)
+D:\Yolo_v4\darknet\src\activations.h(126,127): warning C4244: 'return': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失 (正在編譯原始程式檔 ..\..\src\shortcut_layer.c)
+D:\Yolo_v4\darknet\src\activations.h(50,1): warning C4244: '正在初始化': 將 'float' 轉換為 'int'，由於類型不同，可能導致資料遺失 (正在編譯原始程式檔 ..\..\src\scale_channels_layer.c)
+D:\Yolo_v4\darknet\src\activations.h(72,103): warning C4244: '函式': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失 (正在編譯原始程式檔 ..\..\src\scale_channels_layer.c)
+D:\Yolo_v4\darknet\src\activations.h(72,106): warning C4244: 'return': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失 (正在編譯原始程式檔 ..\..\src\scale_channels_layer.c)
+D:\Yolo_v4\darknet\src\activations.h(114,56): warning C4244: 'return': 將 'int' 轉換為 'float'，由於類型不同，可能導致資料遺失 (正在編譯原始程式檔 ..\..\src\scale_channels_layer.c)
+D:\Yolo_v4\darknet\src\activations.h(115,70): warning C4244: 'return': 將 'int' 轉換為 'float'，由於類型不同，可能導致資料遺失 (正在編譯原始程式檔 ..\..\src\scale_channels_layer.c)
+D:\Yolo_v4\darknet\src\activations.h(126,47): warning C4244: '函式': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失 (正在編譯原始程式檔 ..\..\src\scale_channels_layer.c)
+D:\Yolo_v4\darknet\src\activations.h(126,116): warning C4244: '函式': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失 (正在編譯原始程式檔 ..\..\src\scale_channels_layer.c)
+D:\Yolo_v4\darknet\src\activations.h(126,127): warning C4244: 'return': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失 (正在編譯原始程式檔 ..\..\src\scale_channels_layer.c)
+D:\Yolo_v4\darknet\src\shortcut_layer.c(88,63): warning C4244: '=': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\shortcut_layer.c(55,1): warning C4244: '正在初始化': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失
+  tree.c
+D:\Yolo_v4\darknet\src\activations.h(50,1): warning C4244: '正在初始化': 將 'float' 轉換為 'int'，由於類型不同，可能導致資料遺失 (正在編譯原始程式檔 ..\..\src\sam_layer.c)
+D:\Yolo_v4\darknet\src\activations.h(72,103): warning C4244: '函式': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失 (正在編譯原始程式檔 ..\..\src\sam_layer.c)
+D:\Yolo_v4\darknet\src\activations.h(72,106): warning C4244: 'return': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失 (正在編譯原始程式檔 ..\..\src\sam_layer.c)
+D:\Yolo_v4\darknet\src\activations.h(114,56): warning C4244: 'return': 將 'int' 轉換為 'float'，由於類型不同，可能導致資料遺失 (正在編譯原始程式檔 ..\..\src\sam_layer.c)
+D:\Yolo_v4\darknet\src\activations.h(115,70): warning C4244: 'return': 將 'int' 轉換為 'float'，由於類型不同，可能導致資料遺失 (正在編譯原始程式檔 ..\..\src\sam_layer.c)
+D:\Yolo_v4\darknet\src\activations.h(126,47): warning C4244: '函式': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失 (正在編譯原始程式檔 ..\..\src\sam_layer.c)
+D:\Yolo_v4\darknet\src\activations.h(126,116): warning C4244: '函式': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失 (正在編譯原始程式檔 ..\..\src\sam_layer.c)
+D:\Yolo_v4\darknet\src\activations.h(126,127): warning C4244: 'return': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失 (正在編譯原始程式檔 ..\..\src\sam_layer.c)
+  upsample_layer.c
+  utils.c
+  voxel.c
+D:\Yolo_v4\darknet\src\activations.h(50,1): warning C4244: '正在初始化': 將 'float' 轉換為 'int'，由於類型不同，可能導致資料遺失 (正在編譯原始程式檔 ..\..\src\softmax_layer.c)
+D:\Yolo_v4\darknet\src\activations.h(72,103): warning C4244: '函式': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失 (正在編譯原始程式檔 ..\..\src\softmax_layer.c)
+D:\Yolo_v4\darknet\src\activations.h(72,106): warning C4244: 'return': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失 (正在編譯原始程式檔 ..\..\src\softmax_layer.c)
+D:\Yolo_v4\darknet\src\activations.h(114,56): warning C4244: 'return': 將 'int' 轉換為 'float'，由於類型不同，可能導致資料遺失 (正在編譯原始程式檔 ..\..\src\softmax_layer.c)
+D:\Yolo_v4\darknet\src\activations.h(115,70): warning C4244: 'return': 將 'int' 轉換為 'float'，由於類型不同，可能導致資料遺失 (正在編譯原始程式檔 ..\..\src\softmax_layer.c)
+D:\Yolo_v4\darknet\src\activations.h(126,47): warning C4244: '函式': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失 (正在編譯原始程式檔 ..\..\src\softmax_layer.c)
+D:\Yolo_v4\darknet\src\activations.h(126,116): warning C4244: '函式': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失 (正在編譯原始程式檔 ..\..\src\softmax_layer.c)
+D:\Yolo_v4\darknet\src\activations.h(126,127): warning C4244: 'return': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失 (正在編譯原始程式檔 ..\..\src\softmax_layer.c)
+D:\Yolo_v4\darknet\src\softmax_layer.c(203,21): warning C4477: 'fprintf' : 格式字串 '%4d' 需要 'int' 類型的引數，但 variadic 引數 7 的類型為 'const size_t'
+D:\Yolo_v4\darknet\src\softmax_layer.c(203,21): message : 請考慮在格式字串中使用 '%zd'
+D:\Yolo_v4\darknet\src\softmax_layer.c(377,45): warning C4244: '=': 將 'int' 轉換為 'float'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\softmax_layer.c(423,20): warning C4477: 'printf' : 格式字串 '%d' 需要 'int' 類型的引數，但 variadic 引數 1 的類型為 'const size_t'
+D:\Yolo_v4\darknet\src\softmax_layer.c(423,20): message : 請考慮在格式字串中使用 '%zd'
+D:\Yolo_v4\darknet\src\softmax_layer.c(429,107): warning C4267: '函式': 將 'size_t' 轉換為 'const int'，資料可能遺失
+D:\Yolo_v4\darknet\src\softmax_layer.c(469,153): warning C4267: '函式': 將 'size_t' 轉換為 'int'，資料可能遺失
+D:\Yolo_v4\darknet\src\softmax_layer.c(519,181): warning C4267: '函式': 將 'size_t' 轉換為 'int'，資料可能遺失
+D:\Yolo_v4\darknet\src\softmax_layer.c(522,181): warning C4267: '函式': 將 'size_t' 轉換為 'int'，資料可能遺失
+D:\Yolo_v4\darknet\src\softmax_layer.c(545,63): warning C4244: '=': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失
+  writing.c
+D:\Yolo_v4\darknet\src\activations.h(50,1): warning C4244: '正在初始化': 將 'float' 轉換為 'int'，由於類型不同，可能導致資料遺失 (正在編譯原始程式檔 ..\..\src\tag.c)
+D:\Yolo_v4\darknet\src\activations.h(72,103): warning C4244: '函式': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失 (正在編譯原始程式檔 ..\..\src\tag.c)
+D:\Yolo_v4\darknet\src\activations.h(72,106): warning C4244: 'return': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失 (正在編譯原始程式檔 ..\..\src\tag.c)
+D:\Yolo_v4\darknet\src\activations.h(114,56): warning C4244: 'return': 將 'int' 轉換為 'float'，由於類型不同，可能導致資料遺失 (正在編譯原始程式檔 ..\..\src\tag.c)
+D:\Yolo_v4\darknet\src\activations.h(115,70): warning C4244: 'return': 將 'int' 轉換為 'float'，由於類型不同，可能導致資料遺失 (正在編譯原始程式檔 ..\..\src\tag.c)
+D:\Yolo_v4\darknet\src\activations.h(126,47): warning C4244: '函式': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失 (正在編譯原始程式檔 ..\..\src\tag.c)
+D:\Yolo_v4\darknet\src\activations.h(126,116): warning C4244: '函式': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失 (正在編譯原始程式檔 ..\..\src\tag.c)
+D:\Yolo_v4\darknet\src\activations.h(126,127): warning C4244: 'return': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失 (正在編譯原始程式檔 ..\..\src\tag.c)
+D:\Yolo_v4\darknet\src\tag.c(7,18): warning C4244: '函式': 將 'time_t' 轉換為 'unsigned int'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\tag.c(65,41): warning C4244: '=': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\tag.c(66,16): warning C4477: 'printf' : 格式字串 '%ld' 需要 'long' 類型的引數，但 variadic 引數 7 的類型為 'uint64_t'
+D:\Yolo_v4\darknet\src\tag.c(66,16): message : 請考慮在格式字串中使用 '%lld'
+D:\Yolo_v4\darknet\src\tag.c(66,16): message : 請考慮在格式字串中使用 '%Id'
+D:\Yolo_v4\darknet\src\tag.c(66,16): message : 請考慮在格式字串中使用 '%I64d'
+D:\Yolo_v4\darknet\src\tag.c(69,32): warning C4244: '=': 將 'uint64_t' 轉換為 'int'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\tag.c(54,1): warning C4244: '正在初始化': 將 'uint64_t' 轉換為 'int'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\activations.h(50,1): warning C4244: '正在初始化': 將 'float' 轉換為 'int'，由於類型不同，可能導致資料遺失 (正在編譯原始程式檔 ..\..\src\super.c)
+D:\Yolo_v4\darknet\src\activations.h(72,103): warning C4244: '函式': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失 (正在編譯原始程式檔 ..\..\src\super.c)
+D:\Yolo_v4\darknet\src\activations.h(72,106): warning C4244: 'return': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失 (正在編譯原始程式檔 ..\..\src\super.c)
+D:\Yolo_v4\darknet\src\activations.h(114,56): warning C4244: 'return': 將 'int' 轉換為 'float'，由於類型不同，可能導致資料遺失 (正在編譯原始程式檔 ..\..\src\super.c)
+D:\Yolo_v4\darknet\src\activations.h(115,70): warning C4244: 'return': 將 'int' 轉換為 'float'，由於類型不同，可能導致資料遺失 (正在編譯原始程式檔 ..\..\src\super.c)
+D:\Yolo_v4\darknet\src\activations.h(126,47): warning C4244: '函式': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失 (正在編譯原始程式檔 ..\..\src\super.c)
+D:\Yolo_v4\darknet\src\activations.h(126,116): warning C4244: '函式': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失 (正在編譯原始程式檔 ..\..\src\super.c)
+D:\Yolo_v4\darknet\src\activations.h(126,127): warning C4244: 'return': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失 (正在編譯原始程式檔 ..\..\src\super.c)
+  yolo.c
+D:\Yolo_v4\darknet\src\super.c(11,18): warning C4244: '函式': 將 'time_t' 轉換為 'unsigned int'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\super.c(54,41): warning C4244: '=': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\super.c(21,1): warning C4244: '正在初始化': 將 'uint64_t' 轉換為 'int'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\activations.h(50,1): warning C4244: '正在初始化': 將 'float' 轉換為 'int'，由於類型不同，可能導致資料遺失 (正在編譯原始程式檔 ..\..\src\swag.c)
+D:\Yolo_v4\darknet\src\activations.h(72,103): warning C4244: '函式': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失 (正在編譯原始程式檔 ..\..\src\swag.c)
+D:\Yolo_v4\darknet\src\activations.h(72,106): warning C4244: 'return': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失 (正在編譯原始程式檔 ..\..\src\swag.c)
+D:\Yolo_v4\darknet\src\activations.h(114,56): warning C4244: 'return': 將 'int' 轉換為 'float'，由於類型不同，可能導致資料遺失 (正在編譯原始程式檔 ..\..\src\swag.c)
+D:\Yolo_v4\darknet\src\activations.h(115,70): warning C4244: 'return': 將 'int' 轉換為 'float'，由於類型不同，可能導致資料遺失 (正在編譯原始程式檔 ..\..\src\swag.c)
+D:\Yolo_v4\darknet\src\activations.h(126,47): warning C4244: '函式': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失 (正在編譯原始程式檔 ..\..\src\swag.c)
+D:\Yolo_v4\darknet\src\activations.h(126,116): warning C4244: '函式': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失 (正在編譯原始程式檔 ..\..\src\swag.c)
+D:\Yolo_v4\darknet\src\activations.h(126,127): warning C4244: 'return': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失 (正在編譯原始程式檔 ..\..\src\swag.c)
+D:\Yolo_v4\darknet\src\swag.c(12,18): warning C4244: '函式': 將 'time_t' 轉換為 'unsigned int'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\swag.c(62,41): warning C4244: '=': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\swag.c(22,1): warning C4244: '正在初始化': 將 'uint64_t' 轉換為 'int'，由於類型不同，可能導致資料遺失
+  yolo_layer.c
+D:\Yolo_v4\darknet\src\activations.h(50,1): warning C4244: '正在初始化': 將 'float' 轉換為 'int'，由於類型不同，可能導致資料遺失 (正在編譯原始程式檔 ..\..\src\upsample_layer.c)
+D:\Yolo_v4\darknet\src\activations.h(72,103): warning C4244: '函式': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失 (正在編譯原始程式檔 ..\..\src\upsample_layer.c)
+D:\Yolo_v4\darknet\src\activations.h(72,106): warning C4244: 'return': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失 (正在編譯原始程式檔 ..\..\src\upsample_layer.c)
+D:\Yolo_v4\darknet\src\activations.h(114,56): warning C4244: 'return': 將 'int' 轉換為 'float'，由於類型不同，可能導致資料遺失 (正在編譯原始程式檔 ..\..\src\upsample_layer.c)
+D:\Yolo_v4\darknet\src\activations.h(115,70): warning C4244: 'return': 將 'int' 轉換為 'float'，由於類型不同，可能導致資料遺失 (正在編譯原始程式檔 ..\..\src\upsample_layer.c)
+D:\Yolo_v4\darknet\src\activations.h(126,47): warning C4244: '函式': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失 (正在編譯原始程式檔 ..\..\src\upsample_layer.c)
+D:\Yolo_v4\darknet\src\activations.h(126,116): warning C4244: '函式': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失 (正在編譯原始程式檔 ..\..\src\upsample_layer.c)
+D:\Yolo_v4\darknet\src\activations.h(126,127): warning C4244: 'return': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失 (正在編譯原始程式檔 ..\..\src\upsample_layer.c)
+D:\Yolo_v4\darknet\src\activations.h(50,1): warning C4244: '正在初始化': 將 'float' 轉換為 'int'，由於類型不同，可能導致資料遺失 (正在編譯原始程式檔 ..\..\src\voxel.c)
+D:\Yolo_v4\darknet\src\activations.h(72,103): warning C4244: '函式': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失 (正在編譯原始程式檔 ..\..\src\voxel.c)
+D:\Yolo_v4\darknet\src\activations.h(72,106): warning C4244: 'return': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失 (正在編譯原始程式檔 ..\..\src\voxel.c)
+D:\Yolo_v4\darknet\src\activations.h(114,56): warning C4244: 'return': 將 'int' 轉換為 'float'，由於類型不同，可能導致資料遺失 (正在編譯原始程式檔 ..\..\src\voxel.c)
+D:\Yolo_v4\darknet\src\activations.h(115,70): warning C4244: 'return': 將 'int' 轉換為 'float'，由於類型不同，可能導致資料遺失 (正在編譯原始程式檔 ..\..\src\voxel.c)
+D:\Yolo_v4\darknet\src\activations.h(126,47): warning C4244: '函式': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失 (正在編譯原始程式檔 ..\..\src\voxel.c)
+D:\Yolo_v4\darknet\src\activations.h(126,116): warning C4244: '函式': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失 (正在編譯原始程式檔 ..\..\src\voxel.c)
+D:\Yolo_v4\darknet\src\activations.h(126,127): warning C4244: 'return': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失 (正在編譯原始程式檔 ..\..\src\voxel.c)
+D:\Yolo_v4\darknet\src\voxel.c(46,18): warning C4244: '函式': 將 'time_t' 轉換為 'unsigned int'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\voxel.c(89,41): warning C4244: '=': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\voxel.c(56,1): warning C4244: '正在初始化': 將 'uint64_t' 轉換為 'int'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\activations.h(50,1): warning C4244: '正在初始化': 將 'float' 轉換為 'int'，由於類型不同，可能導致資料遺失 (正在編譯原始程式檔 ..\..\src\writing.c)
+D:\Yolo_v4\darknet\src\activations.h(72,103): warning C4244: '函式': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失 (正在編譯原始程式檔 ..\..\src\writing.c)
+D:\Yolo_v4\darknet\src\activations.h(72,106): warning C4244: 'return': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失 (正在編譯原始程式檔 ..\..\src\writing.c)
+D:\Yolo_v4\darknet\src\activations.h(114,56): warning C4244: 'return': 將 'int' 轉換為 'float'，由於類型不同，可能導致資料遺失 (正在編譯原始程式檔 ..\..\src\writing.c)
+D:\Yolo_v4\darknet\src\activations.h(115,70): warning C4244: 'return': 將 'int' 轉換為 'float'，由於類型不同，可能導致資料遺失 (正在編譯原始程式檔 ..\..\src\writing.c)
+D:\Yolo_v4\darknet\src\activations.h(126,47): warning C4244: '函式': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失 (正在編譯原始程式檔 ..\..\src\writing.c)
+D:\Yolo_v4\darknet\src\activations.h(126,116): warning C4244: '函式': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失 (正在編譯原始程式檔 ..\..\src\writing.c)
+D:\Yolo_v4\darknet\src\activations.h(126,127): warning C4244: 'return': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失 (正在編譯原始程式檔 ..\..\src\writing.c)
+D:\Yolo_v4\darknet\src\writing.c(8,18): warning C4244: '函式': 將 'time_t' 轉換為 'unsigned int'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\writing.c(67,41): warning C4244: '=': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\writing.c(68,16): warning C4477: 'printf' : 格式字串 '%ld' 需要 'long' 類型的引數，但 variadic 引數 7 的類型為 'uint64_t'
+D:\Yolo_v4\darknet\src\writing.c(68,16): message : 請考慮在格式字串中使用 '%lld'
+D:\Yolo_v4\darknet\src\writing.c(68,16): message : 請考慮在格式字串中使用 '%Id'
+D:\Yolo_v4\darknet\src\writing.c(68,16): message : 請考慮在格式字串中使用 '%I64d'
+D:\Yolo_v4\darknet\src\writing.c(76,32): warning C4244: '=': 將 'uint64_t' 轉換為 'int'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\writing.c(39,1): warning C4244: '正在初始化': 將 'uint64_t' 轉換為 'int'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\activations.h(50,1): warning C4244: '正在初始化': 將 'float' 轉換為 'int'，由於類型不同，可能導致資料遺失 (正在編譯原始程式檔 ..\..\src\yolo_layer.c)
+D:\Yolo_v4\darknet\src\activations.h(72,103): warning C4244: '函式': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失 (正在編譯原始程式檔 ..\..\src\yolo_layer.c)
+D:\Yolo_v4\darknet\src\activations.h(72,106): warning C4244: 'return': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失 (正在編譯原始程式檔 ..\..\src\yolo_layer.c)
+D:\Yolo_v4\darknet\src\activations.h(114,56): warning C4244: 'return': 將 'int' 轉換為 'float'，由於類型不同，可能導致資料遺失 (正在編譯原始程式檔 ..\..\src\yolo_layer.c)
+D:\Yolo_v4\darknet\src\activations.h(115,70): warning C4244: 'return': 將 'int' 轉換為 'float'，由於類型不同，可能導致資料遺失 (正在編譯原始程式檔 ..\..\src\yolo_layer.c)
+D:\Yolo_v4\darknet\src\activations.h(126,47): warning C4244: '函式': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失 (正在編譯原始程式檔 ..\..\src\yolo_layer.c)
+D:\Yolo_v4\darknet\src\activations.h(126,116): warning C4244: '函式': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失 (正在編譯原始程式檔 ..\..\src\yolo_layer.c)
+D:\Yolo_v4\darknet\src\activations.h(126,127): warning C4244: 'return': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失 (正在編譯原始程式檔 ..\..\src\yolo_layer.c)
+D:\Yolo_v4\darknet\src\yolo_layer.c(83,18): warning C4244: '函式': 將 'time_t' 轉換為 'unsigned int'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\yolo_layer.c(149,61): warning C4244: '=': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\yolo_layer.c(150,65): warning C4244: '=': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\yolo_layer.c(202,55): warning C4244: '=': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\yolo_layer.c(203,59): warning C4244: '=': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\yolo_layer.c(247,45): warning C4244: '*=': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\yolo_layer.c(248,45): warning C4244: '*=': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\yolo_layer.c(196,1): warning C4244: '正在初始化': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\yolo_layer.c(197,1): warning C4244: '正在初始化': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\yolo_layer.c(314,94): warning C4244: '=': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\yolo_layer.c(347,99): warning C4244: '=': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\yolo_layer.c(346,1): warning C4244: '正在初始化': 將 'int' 轉換為 'float'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\yolo_layer.c(468,59): warning C4244: '=': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\yolo_layer.c(523,32): warning C4244: '=': 將 'float' 轉換為 'int'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\yolo_layer.c(524,32): warning C4244: '=': 將 'float' 轉換為 'int'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\yolo_layer.c(432,1): warning C4244: '正在初始化': 將 'float' 轉換為 'int'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\yolo_layer.c(496,1): warning C4244: '正在初始化': 將 'float' 轉換為 'int'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\yolo_layer.c(518,1): warning C4244: '正在初始化': 將 'float' 轉換為 'int'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\activations.h(50,1): warning C4244: '正在初始化': 將 'float' 轉換為 'int'，由於類型不同，可能導致資料遺失 (正在編譯原始程式檔 ..\..\src\yolo.c)
+D:\Yolo_v4\darknet\src\yolo_layer.c(540,1): warning C4244: '正在初始化': 將 'float' 轉換為 'int'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\activations.h(72,103): warning C4244: '函式': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失 (正在編譯原始程式檔 ..\..\src\yolo.c)
+D:\Yolo_v4\darknet\src\yolo_layer.c(549,1): warning C4244: '正在初始化': 將 'float' 轉換為 'const int'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\activations.h(72,106): warning C4244: 'return': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失 (正在編譯原始程式檔 ..\..\src\yolo.c)
+D:\Yolo_v4\darknet\src\yolo_layer.c(599,1): warning C4244: '正在初始化': 將 'float' 轉換為 'int'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\activations.h(114,56): warning C4244: 'return': 將 'int' 轉換為 'float'，由於類型不同，可能導致資料遺失 (正在編譯原始程式檔 ..\..\src\yolo.c)
+D:\Yolo_v4\darknet\src\activations.h(115,70): warning C4244: 'return': 將 'int' 轉換為 'float'，由於類型不同，可能導致資料遺失 (正在編譯原始程式檔 ..\..\src\yolo.c)
+D:\Yolo_v4\darknet\src\yolo_layer.c(767,44): warning C4244: '+=': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\yolo_layer.c(770,47): warning C4244: '=': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\activations.h(126,47): warning C4244: '函式': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失 (正在編譯原始程式檔 ..\..\src\yolo.c)
+D:\Yolo_v4\darknet\src\yolo_layer.c(777,92): warning C4244: '=': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\activations.h(126,116): warning C4244: '函式': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失 (正在編譯原始程式檔 ..\..\src\yolo.c)
+D:\Yolo_v4\darknet\src\yolo_layer.c(778,92): warning C4244: '=': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\activations.h(126,127): warning C4244: 'return': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失 (正在編譯原始程式檔 ..\..\src\yolo.c)
+D:\Yolo_v4\darknet\src\yolo_layer.c(793,64): warning C4244: '+=': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\yolo_layer.c(796,46): warning C4244: '=': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\yolo_layer.c(798,96): warning C4244: '=': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\yolo_layer.c(835,62): warning C4305: '+=': 從 'double' 轉換為 'float'，是由較大的類型轉換為較小的類型，可能導致資料遺失
+D:\Yolo_v4\darknet\src\yolo_layer.c(839,62): warning C4305: '-=': 從 'double' 轉換為 'float'，是由較大的類型轉換為較小的類型，可能導致資料遺失
+D:\Yolo_v4\darknet\src\yolo_layer.c(903,72): warning C4244: '=': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\yolo_layer.c(748,1): warning C4244: '正在初始化': 將 'int64_t' 轉換為 'int'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\yolo_layer.c(756,1): warning C4244: '正在初始化': 將 'int' 轉換為 'const float'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\yolo_layer.c(758,1): warning C4244: '正在初始化': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\yolo_layer.c(801,1): warning C4244: '正在初始化': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\yolo_layer.c(821,1): warning C4244: '正在初始化': 將 'int' 轉換為 'const float'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\yolo_layer.c(862,1): warning C4244: '正在初始化': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\yolo_layer.c(893,1): warning C4244: '正在初始化': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\yolo_layer.c(895,1): warning C4244: '正在初始化': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\yolo_layer.c(668,12): warning C4101: 'n': 未參考的區域變數
+D:\Yolo_v4\darknet\src\yolo_layer.c(978,50): warning C4244: '=': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\yolo_layer.c(979,50): warning C4244: '=': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\yolo.c(15,18): warning C4244: '函式': 將 'time_t' 轉換為 'unsigned int'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\yolo_layer.c(966,1): warning C4244: '正在初始化': 將 'int' 轉換為 'float'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\yolo.c(71,41): warning C4244: '=': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\yolo_layer.c(968,1): warning C4244: '正在初始化': 將 'int' 轉換為 'float'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\yolo.c(25,1): warning C4244: '正在初始化': 將 'uint64_t' 轉換為 'int'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\yolo_layer.c(1085,49): warning C4244: '=': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\yolo.c(97,31): warning C4244: '=': 將 'int' 轉換為 'float'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\yolo.c(98,31): warning C4244: '=': 將 'int' 轉換為 'float'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\yolo.c(90,1): warning C4244: '正在初始化': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\yolo.c(91,1): warning C4244: '正在初始化': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\yolo.c(92,1): warning C4244: '正在初始化': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\yolo_layer.c(1192,98): warning C4244: '函式': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\yolo.c(93,1): warning C4244: '正在初始化': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\yolo.c(115,18): warning C4244: '函式': 將 'time_t' 轉換為 'unsigned int'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\yolo.c(141,1): warning C4305: '正在初始化': 從 'double' 轉換為 'float'，是由較大的類型轉換為較小的類型，可能導致資料遺失
+D:\Yolo_v4\darknet\src\yolo.c(215,18): warning C4244: '函式': 將 'time_t' 轉換為 'unsigned int'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\yolo.c(234,1): warning C4305: '正在初始化': 從 'double' 轉換為 'float'，是由較大的類型轉換為較小的類型，可能導致資料遺失
+D:\Yolo_v4\darknet\src\yolo.c(299,1): warning C4305: '正在初始化': 從 'double' 轉換為 'float'，是由較大的類型轉換為較小的類型，可能導致資料遺失
+D:\Yolo_v4\darknet\src\yolo.c(350,60): warning C4305: '函式': 從 'double' 轉換為 'float'，是由較大的類型轉換為較小的類型，可能導致資料遺失
+D:\Yolo_v4\darknet\src\utils.c(143,34): warning C4244: '=': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\utils.c(248,1): warning C4244: '正在初始化': 將 '__int64' 轉換為 'int'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\utils.c(249,1): warning C4267: '正在初始化': 將 'size_t' 轉換為 'int'，資料可能遺失
+D:\Yolo_v4\darknet\src\utils.c(343,45): warning C4477: 'sprintf' : 格式字串 '%ld' 需要 'long' 類型的引數，但 variadic 引數 1 的類型為 'const size_t'
+D:\Yolo_v4\darknet\src\utils.c(343,45): message : 請考慮在格式字串中使用 '%zd'
+D:\Yolo_v4\darknet\src\utils.c(337,1): warning C4244: '正在初始化': 將 'double' 轉換為 'const float'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\utils.c(442,25): warning C4267: '函式': 將 'size_t' 轉換為 'int'，資料可能遺失
+D:\Yolo_v4\darknet\src\utils.c(456,36): warning C4267: '函式': 將 'size_t' 轉換為 'int'，資料可能遺失
+D:\Yolo_v4\darknet\src\utils.c(486,48): warning C4267: '函式': 將 'size_t' 轉換為 'unsigned int'，資料可能遺失
+D:\Yolo_v4\darknet\src\utils.c(497,52): warning C4267: '函式': 將 'size_t' 轉換為 'unsigned int'，資料可能遺失
+D:\Yolo_v4\darknet\src\utils.c(508,48): warning C4267: '函式': 將 'size_t' 轉換為 'unsigned int'，資料可能遺失
+D:\Yolo_v4\darknet\src\utils.c(518,52): warning C4267: '函式': 將 'size_t' 轉換為 'unsigned int'，資料可能遺失
+D:\Yolo_v4\darknet\src\utils.c(574,43): warning C4244: '=': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\utils.c(575,46): warning C4244: '=': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\utils.c(576,80): warning C4244: '=': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\utils.c(647,57): warning C4244: '+=': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\utils.c(648,21): warning C4244: 'return': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\utils.c(656,23): warning C4244: 'return': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\utils.c(663,1): warning C4244: '正在初始化': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\utils.c(686,21): warning C4244: 'return': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\utils.c(699,21): warning C4244: 'return': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\utils.c(713,31): warning C4244: '函式': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\utils.c(726,29): warning C4244: '函式': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\utils.c(805,40): warning C4244: 'return': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\utils.c(815,36): warning C4244: 'return': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\utils.c(862,20): warning C4244: 'return': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\utils.c(915,11): warning C4013: 'rand_s' 未定義; 假設 extern 傳回整數
+D:\Yolo_v4\darknet\src\utils.c(1032,39): warning C4244: '=': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\utils.c(1033,40): warning C4244: '=': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\utils.c(1034,38): warning C4244: '=': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\utils.c(1035,38): warning C4244: '=': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\utils.c(1039,55): warning C4244: '=': 將 'int' 轉換為 'float'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\utils.c(1041,51): warning C4244: '=': 將 'int' 轉換為 'float'，由於類型不同，可能導致資料遺失
+  http_stream.cpp
+  image_opencv.cpp
+  yolo_v2_class.cpp
+D:\Yolo_v4\darknet\include\yolo_v2_class.hpp(76,15): warning C4305: '正在初始化': 從 'double' 轉換為 'float'，是由較大的類型轉換為較小的類型，可能導致資料遺失 (正在編譯原始程式檔 ..\..\src\yolo_v2_class.cpp)
+D:\Yolo_v4\darknet\include\yolo_v2_class.hpp(105,1): warning C4244: '*=': 將 'float' 轉換為 'unsigned int'，由於類型不同，可能導致資料遺失 (正在編譯原始程式檔 ..\..\src\yolo_v2_class.cpp)
+D:\Yolo_v4\darknet\src\dark_cuda.h(80,33): warning C4190: 'cuda_gridsize' 已指定 C-連結，但傳回與 C 不相容的 UDT 'dim3' (正在編譯原始程式檔 ..\..\src\yolo_v2_class.cpp)
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.6\include\vector_types.h(418): message : 請參閱 'dim3' 的宣告 (正在編譯原始程式檔 ..\..\src\yolo_v2_class.cpp)
+D:\Yolo_v4\darknet\src\activations.h(50,11): warning C4244: '正在初始化': 將 'float' 轉換為 'int'，由於類型不同，可能導致資料遺失 (正在編譯原始程式檔 ..\..\src\yolo_v2_class.cpp)
+D:\Yolo_v4\darknet\src\activations.h(72,82): warning C4244: '引數': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失 (正在編譯原始程式檔 ..\..\src\yolo_v2_class.cpp)
+D:\Yolo_v4\darknet\src\activations.h(72,59): warning C4244: 'return': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失 (正在編譯原始程式檔 ..\..\src\yolo_v2_class.cpp)
+D:\Yolo_v4\darknet\src\activations.h(126,35): warning C4244: '引數': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失 (正在編譯原始程式檔 ..\..\src\yolo_v2_class.cpp)
+D:\Yolo_v4\darknet\src\activations.h(126,104): warning C4244: '引數': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失 (正在編譯原始程式檔 ..\..\src\yolo_v2_class.cpp)
+D:\Yolo_v4\darknet\src\activations.h(126,122): warning C4244: 'return': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失 (正在編譯原始程式檔 ..\..\src\yolo_v2_class.cpp)
+D:\Yolo_v4\darknet\src\yolo_v2_class.cpp(41,28): warning C4267: 'return': 將 'size_t' 轉換為 'int'，資料可能遺失
+D:\Yolo_v4\darknet\src\yolo_v2_class.cpp(240,61): warning C4244: '=': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\yolo_v2_class.cpp(330,30): warning C4244: '=': 將 'const _Ty' 轉換為 'unsigned int'，由於類型不同，可能導致資料遺失
+          with
+          [
+              _Ty=double
+          ]
+D:\Yolo_v4\darknet\src\yolo_v2_class.cpp(331,30): warning C4244: '=': 將 'const _Ty' 轉換為 'unsigned int'，由於類型不同，可能導致資料遺失
+          with
+          [
+              _Ty=double
+          ]
+D:\Yolo_v4\darknet\src\yolo_v2_class.cpp(332,25): warning C4244: '=': 將 'float' 轉換為 'unsigned int'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\yolo_v2_class.cpp(333,25): warning C4244: '=': 將 'float' 轉換為 'unsigned int'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\yolo_v2_class.cpp(400,34): warning C4244: '=': 將 'const _Ty' 轉換為 'unsigned int'，由於類型不同，可能導致資料遺失
+          with
+          [
+              _Ty=double
+          ]
+D:\Yolo_v4\darknet\src\yolo_v2_class.cpp(401,34): warning C4244: '=': 將 'const _Ty' 轉換為 'unsigned int'，由於類型不同，可能導致資料遺失
+          with
+          [
+              _Ty=double
+          ]
+D:\Yolo_v4\darknet\src\yolo_v2_class.cpp(402,27): warning C4244: '=': 將 'float' 轉換為 'unsigned int'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\yolo_v2_class.cpp(403,27): warning C4244: '=': 將 'float' 轉換為 'unsigned int'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\yolo_v2_class.cpp(453,43): warning C4244: '正在初始化': 將 'float' 轉換為 'unsigned int'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\yolo_v2_class.cpp(454,34): warning C4018: '<': signed/unsigned 不相符
+D:\Yolo_v4\darknet\src\yolo_v2_class.cpp(456,38): warning C4267: '=': 將 'size_t' 轉換為 'int'，資料可能遺失
+D:\Yolo_v4\darknet\src\http_stream.cpp(114,1): warning C4267: '=': 將 'size_t' 轉換為 'int'，資料可能遺失
+D:\Yolo_v4\darknet\src\http_stream.cpp(206,28): warning C4244: '引數': 將 'SOCKET' 轉換為 'int'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\http_stream.cpp(240,24): warning C4244: '引數': 將 'SOCKET' 轉換為 'int'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\http_stream.cpp(241,24): warning C4244: '引數': 將 'SOCKET' 轉換為 'int'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\http_stream.cpp(252,24): warning C4244: '引數': 將 'SOCKET' 轉換為 'int'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\http_stream.cpp(253,32): warning C4244: '引數': 將 'SOCKET' 轉換為 'int'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\http_stream.cpp(265,48): warning C4244: '引數': 將 'SOCKET' 轉換為 'int'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\http_stream.cpp(266,32): warning C4244: '引數': 將 'SOCKET' 轉換為 'int'，由於類型不同，可能導致資料遺失
+D:\Yolo_v4\darknet\src\http_stream.cpp(659,104): warning C4244: 'return': 將 '_Rep' 轉換為 'double'，由於類型不同，可能導致資料遺失
+          with
+          [
+              _Rep=__int64
+          ]
+D:\Yolo_v4\darknet\src\dark_cuda.h(80,33): warning C4190: 'cuda_gridsize' 已指定 C-連結，但傳回與 C 不相容的 UDT 'dim3' (正在編譯原始程式檔 ..\..\src\http_stream.cpp)
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.6\include\vector_types.h(418): message : 請參閱 'dim3' 的宣告 (正在編譯原始程式檔 ..\..\src\http_stream.cpp)
+     正在建立程式庫 D:\Yolo_v4\darknet\build\darknet\x64\yolo_cpp_dll.lib 和物件 D:\Yolo_v4\darknet\build\darknet\x64\yolo_cpp_dll.exp
+  正在產生程式碼
+  85 of 1749 functions ( 4.9%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    88 functions had inline decision re-evaluated but remain unchanged
+  已完成程式碼產生
+  yolo_cpp_dll.vcxproj -> D:\Yolo_v4\darknet\build\darknet\x64\yolo_cpp_dll.dll
